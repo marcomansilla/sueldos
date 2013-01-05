@@ -1,0 +1,810 @@
+1;171200;Acabado de productos textiles;
+2;112000;Actividades  de servicios relacionadas con la extracción de petróleo y gas, excepto las actividades de prospección;
+3;659810;Actividades de crédito para financiar otras actividades económicas;(Incluye las empresas de factoring y otras formas de adelanto, etc.)
+4;452520;Actividades de hincado de pilotes, cimentación y otros trabajos de hormigón armado;
+5;729000;Actividades de informática n.c.p.;
+6;452590;Actividades especializadas de construcción n.c.p.;(Incluye el alquiler e instalación de andamios,  la construcción de chimeneas y hornos industriales, el acorazamiento de cajas fuertes y cámaras frigoríficas, el armado e instalación de compuertas para diques, etc.)
+7;662000;Administración de fondos de jubilaciones y pensiones (A.F.J.P.);
+8;453200;Aislamiento térmico, acústico, hídrico y antivibratorio;
+9;14292;Albergue y cuidado de  animales de terceros;
+10;713009;Alquiler de efectos personales y enseres domésticos n.c.p.;(Incluye alquiler de artículos deportivos y de videos)
+11;455000;Alquiler de equipo de construcción o demolición dotado de operarios;
+12;711200;Alquiler de equipo de transporte para vía acuática, sin operarios ni tripulación;
+13;711300;Alquiler de equipo de transporte para vía aérea, sin operarios ni tripulación;
+14;711100;Alquiler de equipo de transporte para vía terrestre, sin operarios ni tripulación;
+15;712100;Alquiler de maquinaria y equipo agropecuario, sin operarios;
+16;712200;Alquiler de maquinaria y equipo de construcción e ingeniería civil, sin operarios;(Incluye el alquiler de andamios sin montaje ni desmantelamiento)
+17;712300;Alquiler de maquinaria y equipo de oficina, incluso computadoras;
+18;713001;Alquiler de ropa;
+19;712902;Alquiler de maquinaria y equipo minero y petrolero, sin personal;
+20;712909;Alquiler de maquinaria y equipo n.c.p., sin personal;
+21;712901;Alquiler de maquinaria y equipo para la industria manufacturera, sin personal;
+22;12230;Apicultura;(Incluye la producción de miel, jalea real, polen, propóleo, etc.)
+23;201000;Aserrado y cepillado de madera;
+24;410010;Captación, depuración y distribución de agua de fuentes subterráneas;
+25;410020;Captación, depuración y distribución de agua de fuentes superficiales;
+26;151191;Fabricación de aceites y grasas de origen animal;
+27;15010;Caza  y captura de animales vivos y repoblación  de animales de caza;(Incluye la caza de animales para obtener carne, pieles y cueros y la captura de animales vivos para zoológicos, animales de compañía, para investigación, etc.)
+28;454300;Colocación de cristales en obra;(Incluye la instalación y revestimiento de vidrio, espejos y otros artículos de vidrio, etc.)
+29;921420;Composición y representación de obras teatrales, musicales y artísticas;(Incluye a compositores, actores, músicos, conferencistas, pintores, artistas plásticos etc.)
+30;181120;Confección de indumentaria de trabajo, uniformes, guardapolvos y sus accesorios;
+31;181130;Confección de indumentaria para bebés y niños;
+32;181191;Confección de pilotos e impermeables;
+33;181202;Confección de prendas de vestir de cuero;
+34;182001;Confección de prendas de vestir de piel y sucedáneos;
+35;181199;Confección de prendas de vestir n.c.p., excepto las de piel, cuero y sucedáneos, pilotos e impermeables;
+36;181110;Confección de ropa interior, prendas para dormir y para la playa;
+37;351100;Construcción y reparación de buques;(Incluye construcción de motores y piezas para navíos, etc.)
+38;351200;Construcción y reparación de embarcaciones de recreo y deporte;
+39;452200;Construcción, reforma y reparación de edificios no residenciales;(Incluye construcción, reforma y reparación de restaurantes, bares, campamentos, bancos, oficinas, galerías comerciales, estaciones de servicio, edificios para tráfico y comunicaciones, garajes, edificios industriales y depósitos, escuelas, etc.)
+40;452100;Construcción, reforma y reparación de edificios residenciales;(Incluye la construcción, reforma y reparación  de viviendas unifamiliares y multifamiliares
+41;452390;Construcción, reforma y reparación de obras de infraestructura del transporte n.c.p;(Incluye la construcción, reforma y reparación de calles, autopistas, carreteras, puentes, túneles, vías férreas y pistas de aterrizaje, la señalización mediante pintura, etc.)
+42;452310;Construcción, reforma y reparación de obras hidráulicas;(Incluye obras fluviales y canales, acueductos, diques, etc.)
+43;452400;Construcción, reforma y reparación de redes;(Incluye  la construcción, reforma y reparación de redes de electricidad, de gas, de agua, de telecomunicaciones, etc.)
+44;269600;Corte, tallado y acabado de la piedra;(Incluye mármoles y granitos, etc.)
+45;12242;Cría de animales para la obtención de pelos;
+46;12241;Cría de animales para la obtención de pieles y cueros;
+47;12243;Cría de animales para la obtención de plumas;
+48;12290;Cría de animales y obtención de productos de origen animal, n.c.p.;(Incluye ciervo, conejo -excepto para pelos-, gato, gusano de seda, lombriz, pájaro, perro, rana, animales para experimentación, caracoles vivos, frescos, congelados y secos -excepto marinos-, cera de insectos excepto la de abeja, etc.)
+49;12211;Cría de aves para producción de carne;
+50;12212;Cría de aves para producción de huevos;(Incluye pollitos BB para postura)
+51;12161;Cría de ganado bovino en cabañas;(Incluye la producción de semen)
+52;12111;Cría de ganado bovino -excepto en cabañas y para la producción de leche-;
+53;12150;Cría de ganado caprino, excepto en cabañas y para producción de leche;
+54;12163;Cría de ganado equino en haras;(Incluye la producción de semen)
+55;12140;Cría de ganado equino, excepto en haras;(Incluye equinos de trabajo)
+56;12190;Cría de ganado n.c.p.;(Incluye la cría de alpaca, asno, búfalo, guanaco, llama, mula, vicuña, etc.)
+57;12169;Cría en cabañas de ganado n.c.p.;
+58;12162;Cría de ganado ovino, porcino y caprino en cabañas;(Incluye la producción de semen)
+59;12120;Cría de ganado ovino, excepto en cabañas y para la  producción de lana;
+60;12130;Cría de ganado porcino, excepto en cabañas;
+61;11140;Cultivo de  pastos forrajeros;(Incluye alfalfa, moha, pastos consociados, sorgo azucarado y forrajero, etc.)
+62;11411;Cultivo de algodón;
+63;11111;Cultivo de arroz;
+64;11229;Cultivo de bulbos, brotes, raíces y hortalizas de frutos n.c.p.;(Incluye ají, ajo, alcaparra, berenjena, cebolla, calabaza, espárrago, frutilla, melón, pepino, pimiento, sandía, zanahoria, zapallo, zapallito, etc.)
+65;11421;Cultivo de caña de azúcar;
+66;11119;Cultivo de cereales excepto los forrajeros y  las semillas n.c.p.;(Incluye alforfón, cebada cervecera, etc.)
+67;11129;Cultivo de cereales forrajeros n.c.p.;(Incluye alpiste, avena, cebada forrajera, centeno, mijo, etc.)
+68;11460;Cultivo de especias (de hoja, de semilla, de flor y de fruto) y de plantas aromáticas y medicinales;
+69;11251;Cultivo de flores;
+70;11330;Cultivo de frutas cítricas;(Incluye bergamota, lima, limón, mandarina, naranja, pomelo, kinoto, etc.)
+71;11320;Cultivo de frutas de carozo;(Incluye cereza, ciruela, damasco, durazno, pelón, etc.)
+72;11319;Cultivo de frutas de pepita n.c.p.;(Incluye membrillo, níspero, etc.)
+73;11390;Cultivo de frutas n.c.p.;(Incluye ananá, banana, higo, kiwi, mamón, palta, uva de mesa, etc.)
+74;11132;Cultivo de girasol;
+75;11230;Cultivo de hortalizas de hoja y de otras hortalizas frescas;(Incluye acelga, apio, cebolla de verdeo, choclo, coles, espinaca, lechuga, perejil, radicheta, repollo, etc.)
+76;11241;Cultivo de legumbres frescas;(Incluye arveja, chaucha, haba, lupino, poroto, etc.)
+77;11242;Cultivo de legumbres secas;(Incluye arveja, garbanzo, haba, lenteja, poroto, etc.)
+78;11121;Cultivo de maíz;
+79;11311;Cultivo de manzana y pera;
+80;11340;Cultivo de nueces y frutas secas;(Incluye almendra, avellana, castaña, nuez, pistacho, etc.)
+81;11139;Cultivo de oleaginosas n.c.p.;(Incluye los cultivos de oleaginosas para aceites comestibles y/o uso industrial: cártamo, colza, jojoba, lino oleaginoso, maní, olivo para aceite, ricino, sésamo, tung, etc.)
+82;11210;Cultivo de papa, batata y mandioca;
+83;11252;Cultivo de plantas ornamentales;
+84;11419;Cultivo de plantas para la obtención de fibras n.c.p.;(Incluye abacá, cáñamo, formio, lino textil, maíz de Guinea, ramio, yute, etc.)
+85;11429;Cultivo de plantas sacaríferas n.c.p.;(Incluye remolacha azucarera, etc.)
+86;11131;Cultivo de soja;
+87;11122;Cultivo de sorgo granífero;
+88;11450;Cultivo de tabaco;
+89;11440;Cultivo de té, yerba mate y otras plantas cuyas hojas se utilizan para preparar bebidas (infusiones);
+90;11221;Cultivo de tomate;
+91;11112;Cultivo de trigo;
+92;11430;Cultivo de vid para vinificar;
+93;11490;Cultivos industriales n.c.p.;(Incluye olivo para conserva, palmitos, etc.)
+94;191100;Curtido y terminación de cueros;
+95;451100;Demolición y voladura de edificios y de sus partes;(Incluye los trabajos de limpieza de escombros asociados a la demolición y voladura, las perforaciones asociadas a la preparación del terreno para la construcción de obras, la limpieza del terreno de malezas y la estabilización del suelo, etc.)
+96;155110;Destilación de alcohol etílico;
+97;155120;Destilación, rectificación y mezcla de bebidas espiritosas;
+98;401300;Distribución de energía eléctrica;
+99;921120;Distribución de filmes y videocintas;
+100;221300;Edición de grabaciones;
+101;221100;Edición de libros, folletos, partituras y otras publicaciones;
+102;221200;Edición de periódicos, revistas y publicaciones periódicas;
+103;221900;Edición n.c.p.;
+104;453190;Ejecución y mantenimiento de instalaciones eléctricas y electrónicas n.c.p.;(Incluye la instalación de antenas, pararrayos, sistemas de alarmas contra incendios y robos, sistemas de telecomunicación, etc.)
+105;269421;Elaboración de yeso;
+106;151410;Elaboración de aceites y grasas  vegetales sin refinar y sus subproductos; elaboración de aceite virgen
+107;151420;Elaboración de aceites y grasas vegetales refinadas;(No incluye aceite de maíz)
+108;153131;Elaboración de alimentos a base de cereales;
+109;153300;Elaboración de alimentos preparados para animales;
+110;153200;Elaboración de almidones y productos derivados del almidón;(Incluye la elaboración de glucosa, gluten, aceites de maíz)
+111;272010;Elaboración de aluminio primario y semielaborados de aluminio;
+112;154200;Elaboración de azúcar;
+113;155420;Elaboración de bebidas gaseosas, excepto soda;
+114;154301;Elaboración de cacao, chocolate y  productos a base de cacao;
+115;269422;Elaboración de cal;
+116;269410;Elaboración de cemento;
+117;155300;Elaboración de cerveza, bebidas malteadas y de malta;
+118;160091;Elaboración de cigarrillos;
+119;154991;Elaboración de extractos, jarabes y concentrados;
+120;151130;Elaboración de fiambres y embutidos;
+121;151340;Elaboración de frutas, hortalizas y legumbres congeladas;
+122;151390;Elaboración de frutas, hortalizas y legumbres deshidratadas o desecadas; preparación n.c.p. de frutas, hortalizas y legumbres
+123;154110;Elaboración de galletitas y bizcochos;
+124;155490;Elaboración de hielo, jugos envasados para diluir y otras bebidas no alcohólicas;"(Incluye los jugos para diluir o en polvo llamados  ""sintéticos"" o de un contenido en jugos naturales inferior al 50%)"
+125;151320;Elaboración de jugos naturales y sus concentrados, de frutas, hortalizas y legumbres;
+126;152010;Elaboración de leches y productos lácteos deshidratados;(Incluye la estandarización, homogeneización, pasteurización y esterilización de leche, la elaboración de leches chocolatadas y otras leches saborizadas, leches condensadas, leche en polvo, dulce de leche, etc.)
+127;151430;Elaboración de margarinas y grasas vegetales comestibles similares;
+128;154410;Elaboración de pastas alimentarias frescas;
+129;154420;Elaboración de pastas alimentarias secas;
+130;151201;Elaboración de pescados de mar, crustáceos y  productos marinos n.c.p.;
+131;151202;Elaboración de pescados de ríos y lagunas y otros productos fluviales y lacustres;
+132;154999;Elaboración de productos alimenticios n.c.p.;(Incluye la elaboración de polvos para preparar postres y gelatinas, levadura, productos para copetín, sopas y concentrados, sal de mesa, mayonesa, mostaza, etc.)
+133;323000;Fabricación de receptores de radio y televisión, aparatos de grabación y reproducción de sonido y video, y productos conexos;
+134;154309;Elaboración de productos de confitería n.c.p.;(Incluye caramelos, frutas confitadas, pastillas, gomas de mascar, etc.)
+135;154199;Elaboración de productos de panadería n.c.p.;(Incluye la elaboración de churros, prepizzas, masas fritas, de hojaldre, etc.en establecimientos de hasta 10 ocupados)
+136;160099;Elaboración de productos de tabaco n.c.p.;
+137;152090;Elaboración de productos lácteos n.c.p.;(Incluye la producción de caseínas, caseinatos lácteos, cremas, manteca, postres, etc.)
+138;152020;Elaboración de quesos;(Incluye la producción de suero)
+139;155290;Elaboración de sidra y otras bebidas alcohólicas fermentadas a partir de frutas;
+140;154992;Elaboración de vinagres;
+141;155210;Elaboración de vinos;(Incluye el fraccionamiento)
+142;154930;Elaboración de yerba mate;
+143;152030;Elaboración industrial de helados;(No incluye las heladerías artesanales)
+144;154120;Elaboración industrial de productos de panadería, excluido galletitas y bizcochos;(Incluye la elaboración en establecimientos con más de 10 ocupados)
+145;269910;Elaboración primaria n.c.p. de minerales no metálicos;
+146;151330;Elaboración y envasado de dulces, mermeladas y jaleas;
+147;154912;Elaboración y molienda de hierbas aromáticas y  especias;
+148;155411;Embotellado de aguas naturales y minerales;
+149;642091;Emisión de programas de televisión;
+150;12113;Engorde en corrales (Fed-Lot);
+151;742200;Ensayos y análisis técnicos;
+152;803100;Enseñanza  terciaria;
+153;801000;Enseñanza inicial y primaria;
+154;809000;Enseñanza para adultos y servicios de enseñanza n.c.p.;(Incluye instrucción impartida mediante programas de radio, televisión, correspondencia y otros medios de comunicación, escuelas de manejo, actividades de enseñanza a domicilio y/o particulares, etc.)
+155;802100;Enseñanza secundaria de formación general;
+156;802200;Enseñanza secundaria de formación técnica y profesional;
+157;803200;Enseñanza universitaria excepto formación de posgrado;
+158;741300;Estudio de mercado, realización de encuestas de opinión pública;
+159;921200;Exhibición de filmes y videocintas;
+160;552120;Expendio de helados;
+161;50200;Explotación de criaderos de peces, granjas piscícolas y otros frutos acuáticos  (acuicultura);
+162;142900;Explotación de minas y canteras n.c.p.;(Incluye amianto, baritina, cuarzo, diatomita, piedra pómez, ágata, agua marina, amatista, cristal de roca, rodocrosita, topacio, corindón, feldespato, mica, zeolita, perlita, granulado volcánico, puzolana, toba, talco, vermiculita, tosca, grafito, etc.)
+163;20130;Explotación de viveros forestales;(Incluye propagación de especies forestales)
+164;141400;Extracción de arcilla y caolín;(Incluye andalucita, arcillas, bentonita, caolín, pirofilita, silimanita, mullita, tierra de chamota o de dinas, etc.)
+165;141300;Extracción de arenas, canto rodado y triturados pétreos;(Incluye arena para construcción, arena silícea, otras arenas naturales, canto rodado, dolomita triturada,  granito triturado, piedra partida  y  otros triturados pétreos, etc.)
+166;131000;Extracción de minerales de hierro;(Incluye hematitas, limonitas, magnetitas, siderita, etc.)
+167;132000;Extracción de minerales metalíferos no ferrosos, excepto minerales de uranio y torio;(Incluye aluminio, cobre, estaño, manganeso, níquel, oro, plata, plomo, volframio, antimonio, bismuto, cinc, molibdeno, titanio, circonio, niobio, tántalo, vanadio, cromo, cobalto)
+168;142110;Extracción de minerales para la fabricación de abonos excepto turba.;(Incluye guano, silvita, silvinita y otras sales de potasio naturales, etc.)
+169;142120;Extracción de minerales para la fabricación de productos químicos;(Incluye azufre, boracita e hidroboracita, calcita, celestina, colemanita, fluorita, litio y sales de litio naturales, sulfato de aluminio, sulfato de hierro, sulfato de magnesio, sulfato de sodio, ocres,  tinkal, ulexita, asfaltita, laterita, etc.)
+170;120000;Extracción de minerales y concentrados de uranio y torio;
+171;111000;Extracción de petróleo crudo y gas natural;(Incluye gas natural licuado y gaseoso, arenas alquitraníferas, esquistos bituminosos o lutitas, aceites de petróleo y de minerales bituminosos, petróleo, coque de petróleo, etc.)
+172;141200;Extracción de piedra caliza y yeso;(Incluye caliza, castina, conchilla, riolita, yeso natural, anhidrita, etc.)
+173;20210;Extracción de productos forestales de bosques cultivados;(Incluye tala de árboles, desbaste de troncos y producción de madera en bruto, rollizos, leña, postes, carbón, carbonilla y productos forestales n.c.p.)
+174;20220;Extracción de productos forestales de bosques nativos;(Incluye tala de árboles, desbaste de troncos y producción de madera en bruto, leña, postes, carbón, carbonilla, la extracción de rodrigones, varas, varillas y la recolección de crines vegetales, gomas naturales, líquenes, musgos, resinas y de rosa mosqueta, etc.)
+175;141100;Extracción de rocas ornamentales;(Incluye areniscas, cuarcita, dolomita, granito, mármol, piedra laja, pizarra, pórfido, serpentina , etc.)
+176;142200;Extracción de sal en salinas y de roca;
+177;101000;Extracción y aglomeración de carbón;(Incluye la producción de hulla no aglomerada, antracita, carbón bituminoso no aglomerado, briquetas, ovoides y combustibles sólidos análogos a base de hulla, etc.)
+178;102000;Extracción y aglomeración de lignito;(Incluye la producción de lignito aglomerado y no aglomerado)
+179;103000;Extracción y aglomeración de turba;(Incluye la producción de turba utilizada como corrector de suelos)
+180;319000;Fabricación  de equipo eléctrico n.c.p.;
+181;251909;Fabricación  de productos de caucho n.c.p.;
+182;251901;Fabricación de  autopartes de caucho excepto cámaras y cubiertas;
+183;291900;Fabricación de  maquinaria de uso general n.c.p.;
+184;202201;Fabricación de aberturas y estructuras de madera para la construcción;
+185;241200;Fabricación de abonos y compuestos de nitrógeno;
+186;181201;Fabricación de accesorios de vestir de cuero;
+187;181192;Fabricación de accesorios de vestir excepto de cuero;
+188;151203;Fabricación de aceites, grasas, harinas y productos a base de pescados n.c.p.;
+189;314000;Fabricación de acumuladores y de pilas y baterías primarias;
+190;312000;Fabricación de aparatos de distribución y control de la energía eléctrica;
+191;293099;Fabricación de aparatos y accesorios eléctricos n.c.p.;
+192;332001;Fabricación de aparatos y accesorios para fotografía excepto películas, placas y papeles sensibles;
+193;292700;Fabricación de armas y municiones;
+194;293095;Fabricación de artefactos para iluminación excepto los eléctricos;
+195;172109;Fabricación de artículos confeccionados de materiales textiles excepto prendas de vestir n.c.p.;
+196;269591;Fabricación de artículos de cemento y fibrocemento;
+197;202901;Fabricación de artículos de cestería, caña y mimbre;
+198;369300;Fabricación de artículos de deporte;(Incluye equipos de deporte, para gimnasios y campos de juegos, equipos de pesca y camping, etc., excepto indumentaria deportiva)
+199;172103;Fabricación de artículos de lona y sucedáneos de lona;
+200;202903;Fabricación de artículos de madera en tornerías;
+201;210910;Fabricación de artículos de papel y cartón de uso doméstico e higiénico sanitario;
+202;210990;Fabricación de artículos de papel y cartón n.c.p.;
+203;269110;Fabricación de artículos sanitarios de cerámica;
+204;202902;Fabricación de ataúdes;
+205;359200;Fabricación de bicicletas y de sillones de ruedas para inválidos;
+206;172104;Fabricación de bolsas de materiales textiles para productos a granel;
+207;291200;Fabricación de bombas; compresores
+208;289992;Fabricación de cajas de seguridad;
+209;192010;Fabricación de calzado de cuero, excepto el ortopédico;
+210;192020;Fabricación de calzado de tela, plástico, goma, caucho y otros materiales, excepto calzado ortopédico y de asbesto;
+211;281101;Fabricación de carpintería metálica;
+212;342000;Fabricación de carrocerías para vehículos automotores; fabricación de remolques y semirremolques
+213;369920;Fabricación de cepillos y pinceles;
+214;289309;Fabricación de cerraduras, herrajes y artículos de ferretería n.c.p.;(No incluye clavos, productos de bulonería, vajilla de mesa y de cocina, etc.)
+215;293010;Fabricación de cocinas, calefones, estufas y calefactores de uso doméstico no eléctricos;
+216;291300;Fabricación de cojinetes; engranajes
+217;242903;Fabricación de colas, adhesivos, aprestos y cementos excepto los odontológicos obtenidos de sustancias minerales y vegetales;
+218;233000;Fabricación de combustible nuclear;
+219;242490;Fabricación de cosméticos, perfumes y  productos de higiene y tocador;
+220;251110;Fabricación de cubiertas y cámaras;
+221;289302;Fabricación de artículos de cuchillería y utensillos de mesa y de cocina;
+222;172300;Fabricación de cuerdas, cordeles, bramantes y redes;
+223;241120;Fabricación de curtientes naturales y sintéticos.;
+224;293093;Fabricación de enceradoras, pulidoras, batidoras, licuadoras y similares;
+225;210202;Fabricación de envases de cartón;
+226;289910;Fabricación de envases metálicos;
+227;210201;Fabricación de envases de papel;
+228;261010;Fabricación de envases de vidrio;
+229;252010;Fabricación de envases plásticos;
+230;331300;Fabricación de equipo de control de procesos industriales;
+231;291500;Fabricación de equipo de elevación y manipulación;(Incluye la fabricación de ascensores, escaleras mecánicas, montacargas, etc.)
+232;359900;Fabricación de equipo de transporte n.c.p.;
+233;331100;Fabricación de equipo médico y quirúrgico y de aparatos ortopédicos;
+234;261091;Fabricación de espejos y vitrales;
+235;281102;Fabricación de estructuras metálicas para la construcción;
+236;242902;Fabricación de explosivos, municiones y productos de pirotecnia;
+237;243000;Fabricación de fibras manufacturadas;
+238;369991;Fabricación de fósforos;
+239;172101;Fabricación de frazadas, mantas, ponchos, colchas, cobertores, etc.;
+240;241110;Fabricación de gases comprimidos y licuados.;
+241;281300;Fabricación de generadores de vapor;
+242;293020;"Fabricación de heladeras, ""freezers"", lavarropas y secarropas";
+243;289301;Fabricación de herramientas manuales y sus accesorios;
+244;171132;Fabricación de hilados de algodón y sus mezclas;
+245;171131;Fabricación de hilados de lana y sus mezclas;
+246;171139;Fabricación de hilados textiles excepto de lana y de algodón;
+247;313000;Fabricación de hilos y cables aislados;
+248;202100;Fabricación de hojas de madera para enchapado; fabricación de tableros contrachapados
+249;291400;Fabricación de hornos; hogares y quemadores
+250;369200;Fabricación de instrumentos de música;
+251;332003;Fabricación de instrumentos de óptica;
+252;331200;Fabricación de instrumentos y aparatos para medir, verificar, ensayar, navegar y otros fines, excepto el equipo de control  de procesos industriales;
+253;242412;Fabricación de jabones y detergentes;
+254;369101;Fabricación de joyas y artículos conexos;
+255;369400;Fabricación de juegos y juguetes;
+256;269301;Fabricación de ladrillos;
+257;269309;Fabricación de productos de arcilla y cerámica no refractaria para uso estructural n.c.p.;
+258;315000;Fabricación de lámparas eléctricas y equipo de iluminación;(Incluye la fabricación de letreros luminosos)
+259;369910;Fabricación de lápices, lapiceras,  bolígrafos, sellos y artículos similares para oficinas y artistas;
+260;332002;Fabricación de lentes y otros artículos oftálmicos;
+261;352000;Fabricación de locomotoras y de material rodante para ferrocarriles y tranvías;
+262;191200;Fabricación de maletas, bolsos de mano y similares, artículos de talabartería y artículos de cuero n.c.p.;
+263;292190;Fabricación de maquinaria agropecuaria y forestal, excepto tractores;
+264;300000;Fabricación de maquinaria de oficina, contabilidad e informática;
+265;292909;Fabricación de maquinaria de uso especial n.c.p.;
+266;292300;Fabricación de maquinaria metalúrgica;
+267;292500;Fabricación de maquinaria para la elaboración de alimentos, bebidas y tabaco;
+268;292600;Fabricación de maquinaria para la elaboración de productos textiles, prendas de vestir y cueros;
+269;292400;Fabricación de maquinaria para la explotación de minas y canteras y para obras de construcción;(Incluye la fabricación de máquinas y equipos viales)
+270;292901;Fabricación de maquinaria para la industria del papel y las artes gráficas;
+271;293091;Fabricación de máquinas de coser y tejer;
+272;292200;Fabricación de máquinas herramienta;
+273;154191;Elaboración de masas y productos de pastelería;
+274;241130;Fabricación de materias colorantes básicas, excepto pigmentos preparados.;
+275;241309;Fabricación de materias plásticas en formas primarias n.c.p.;
+276;241180;Fabricación de materias químicas inorgánicas básicas n.c.p.;
+277;241190;Fabricación de materias químicas orgánicas básicas n.c.p.;(Incluye la fabricación de alcoholes excepto el etílico,  sustancias químicas para la elaboración de sustancias plásticas, etc.)
+278;173010;Fabricación de medias;
+279;242310;Fabricación de medicamentos de uso humano y productos farmacéuticos;
+280;242320;Fabricación de medicamentos de uso veterinario;
+281;269510;Fabricación de mosaicos;
+282;359100;Fabricación de motocicletas;
+283;291100;Fabricación de motores y turbinas, excepto motores para aeronaves, vehículos automotores y motocicletas;
+284;311000;Fabricación de motores, generadores y transformadores eléctricos;
+285;361010;Fabricación de muebles y partes de muebles, principalmente de madera;
+286;361020;Fabricación de muebles y partes de muebles, principalmente de otros materiales (metal, plástico, etc.);
+287;269193;Fabricación de objetos cerámicos excepto revestimientos de pisos y paredes n.c.p.;
+288;269192;Fabricación de objetos cerámicos para uso doméstico excepto artefactos sanitarios;
+289;269191;Fabricación de objetos cerámicos para uso industrial y de laboratorio;
+290;369102;Fabricación de objetos de platería y artículos enchapados;
+291;210102;Fabricación de papel y cartón excepto envases;
+292;369992;Fabricación de paraguas;
+293;192030;Fabricación de partes de calzado;
+294;343000;Fabricación de partes; piezas y accesorios para vehículos automotores y sus motores
+295;242200;Fabricación de pinturas; barnices y productos de revestimiento similares
+296;242100;Fabricación de plaguicidas y  productos químicos de uso agropecuario;
+297;293094;Fabricación de planchas, calefactores, hornos eléctricos, tostadoras y otros aparatos generadores de calor;
+298;269592;Fabricación de premoldeadas para la construcción;
+299;242411;Fabricación de preparados para limpieza, pulido y saneamiento;
+300;269200;Fabricación de productos de cerámica refractaria;
+301;202904;Fabricación de productos de corcho;
+302;231000;Fabricación de productos de hornos de coque;
+303;232000;Fabricación de productos de la refinación del petróleo;
+304;242390;Fabricación de productos de laboratorio,  sustancias químicas medicinales y productos botánicos n.c.p.;
+305;202909;Fabricación de productos de madera n.c.p;
+306;171149;Fabricación de productos de tejeduría n.c.p.;
+307;261099;Fabricación de productos de vidrio n.c.p.;
+308;289993;Fabricación de productos metálicos de tornería y/o matricería;
+309;289999;Fabricación de productos metálicos n.c.p.;(Incluye clavos, productos de bulonería, vajilla de mesa y de cocina, etc.)
+310;269990;Fabricación de productos minerales no metálicos n.c.p.;
+311;252090;Fabricación de productos plásticos en formas básicas y artículos de plástico n.c.p., excepto muebles;
+312;242909;Fabricación de productos químicos n.c.p.;(Incluye la producción de aceites esenciales, etc.)
+313;172900;Fabricación de productos textiles n.c.p.;
+314;210101;Fabricación de pulpa de madera;
+315;202300;Fabricación de recipientes de madera;
+316;333000;Fabricación de relojes;
+317;241301;Fabricación de resinas y cauchos sintéticos;
+318;269302;Fabricación de revestimientos cerámicos;
+319;172102;Fabricación de ropa de cama y mantelería;
+320;155412;Fabricación de sodas;
+321;361030;Fabricación de somieres y colchones;
+322;173020;Fabricación de suéteres y artículos similares de punto;
+323;281200;Fabricación de tanques, depósitos y recipientes de metal;
+324;172200;Fabricación de tapices y alfombras;
+325;171142;Fabricación de tejidos (telas) planos de algodón y sus mezclas;
+326;171143;Fabricación de tejidos (telas) planos de fibras manufacturadas y seda;
+327;171148;Fabricación de tejidos (telas) planos de fibras textiles n.c.p.;(Incluye hilanderías y tejedurías integradas)
+328;171141;Fabricación de tejidos (telas) planos de lana y sus mezclas;
+329;289991;Fabricación de tejidos de alambre;
+330;173090;Fabricación de tejidos y artículos de punto n.c.p.;
+331;242901;Fabricación de tintas;
+332;292110;Fabricación de tractores;
+333;322000;Fabricación de transmisores de radio y televisión y de aparatos para telefonía y telegrafía con hilos;
+334;321000;Fabricación de tubos, válvulas  y otros  componentes electrónicos;
+335;341000;Fabricación de vehículos automotores;(Incluye la fabricación de motores para automotores)
+336;293092;Fabricación de ventiladores, extractores y acondicionadores de aire, aspiradoras y similares;
+337;202202;Fabricación de viviendas prefabricadas de madera;
+338;271009;Fabricación en industrias básicas de productos de hierro y acero n.c.p.;
+339;402009;Fabricación y distribución de combustibles gaseosos n.c.p.;
+340;402001;Fabricación y distribución de gas;(No incluye el transporte por gasoductos)
+341;261020;Fabricación y elaboración de vidrio plano;
+342;353000;Fabricación y reparación de aeronaves;
+343;289100;Forjado, prensado, estampado y laminado de metales; pulvimetalurgia
+344;803300;Formación de posgrado;
+345;514191;Fraccionamiento y distribución de gas licuado;
+346;273100;Fundición de hierro y acero;
+347;273200;Fundición de metales no ferrosos;
+348;271001;Fundición en altos hornos y acerías. Producción de lingotes, planchas o barras;
+349;401130;Generación de energía hidráulica;(Incluye la producción de energía eléctrica mediante centrales de bombeo)
+350;401190;Generación de energía n.c.p.;(Incluye la producción de energía eléctrica mediante fuentes de energía solar, biomasa, eólica, geotérmica, mareomotriz, etc.)
+351;401110;Generación de energía térmica convencional;(Incluye la producción de energía eléctrica mediante máquinas turbo-gas, turbo vapor, ciclo combinado y turbo diesel)
+352;401120;Generación de energía térmica nuclear;(Incluye la producción de energía eléctrica mediante combustible nuclear)
+353;222101;Impresión de diarios y revistas;
+354;222109;Impresión excepto de diarios y revistas;
+355;369999;Industrias manufactureras n.c.p.;(Incluye fabricación de cochecitos de bebé, termos, velas, pelucas, etc.)
+356;14210;Inseminación artificial y servicios n.c.p. para mejorar la reproducción de los animales y el rendimiento de sus productos;
+357;453120;Instalación de sistemas de iluminación, control y señalización eléctrica para el transporte;
+358;502910;Instalación y reparación de caños de escape;
+359;502300;Instalación y reparación de lunetas y ventanillas,  alarmas, cerraduras, radios, sistemas de climatización automotor y grabado de cristales;(Incluye instalación y reparación de parabrisas, aletas, burletes, colisas, levantavidrios, parlantes y autoestereos, aire acondicionado, alarmas y sirenas, etc.)
+360;453110;Instalaciones de ascensores, montacargas y  escaleras mecánicas;
+361;454100;Instalaciones de carpintería, herrería de obra y artística;(Incluye instalación de puertas y ventanas, carpintería metálica y no metálica, etc.)
+362;453300;Instalaciones de gas, agua, sanitarios y de climatización, con sus artefactos conexos;(Incluye la instalación de compactadores, calderas, sistemas de calefacción central, etc.)
+363;453900;Instalaciones para edificios y obras de ingeniería civil n.c.p.;
+364;12112;Invernada  de ganado bovino excepto el engorde en corrales (Fed-Lot);
+365;731100;Investigación  y desarrollo experimental en el campo de la ingeniería y la tecnología;
+366;731300;Investigación  y desarrollo experimental en el campo de las ciencias agropecuarias;
+367;732200;Investigación  y desarrollo experimental en el campo de las ciencias humanas;
+368;731200;Investigación  y desarrollo experimental en el campo de las ciencias médicas;
+369;732100;Investigación  y desarrollo experimental en el campo de las ciencias sociales;
+370;731900;Investigación y desarrollo experimental en el campo de las  ciencias exactas y naturales n.c.p.;
+371;271002;Laminación y estirado;
+372;502100;Lavado automático y manual;
+373;171120;Preparación de fibras animales de uso textil, incluso lavado de lana;
+374;930100;Lavado y limpieza de artículos de tela, cuero y/o de piel, incluso la limpieza en seco;
+375;502920;Mantenimiento y reparación de frenos;
+376;725000;Mantenimiento y reparación de maquinaria de oficina, contabilidad e informática;
+377;504020;Mantenimiento y reparación de motocicletas;
+378;502990;Mantenimiento y reparación del motor n.c.p.; mecánica integral
+379;151111;Matanza de ganado bovino;
+380;151140;Matanza de ganado excepto el bovino y procesamiento de su carne;(Incluye ganado ovino, porcino, equino, búfalo, etc.)
+381;151199;Matanza de animales n.c.p. y procesamiento de su carne; elaboración de subproductos cárnicos n.c.p.
+382;151120;Matanza y procesamiento de carne de aves;
+383;153110;Molienda de trigo;
+384;451900;Movimiento de suelos y preparación de terrenos para obras n.c.p.;(Incluye el drenaje, remoción de rocas, excavación de zanjas para servicios públicos, alcantarillado urbano y para construcciones diversas, movimientos de tierras para hacer terraplenes o desmontes previos a la construcción de vías, autopistas, FFCC, etc.)
+385;452900;Obras de ingeniería civil n.c.p.;(Incluye los trabajos generales de construcción para la minería y la industria,  de centrales eléctricas y nucleares, excavaciones de sepulturas, etc.)
+386;749100;Obtención y dotación de personal;
+387;511912;Operaciones de intermediación de carne excepto consignatario directo;(Incluye consignatarios y abastecedores de carnes, etc.)
+388;511121;Operaciones de intermediación de ganado en pie;(Incluye consignatarios de hacienda y ferieros)
+389;511122;Operaciones de intermediación de lanas, cueros y productos afines de terceros;
+390;511911;Operaciones de intermediación de carne - consignatario directo -;
+391;452510;Perforación de pozos de agua;
+392;451200;Perforación y sondeo excepto: perforación de pozos de petróleo, de gas, de minas e hidráulicos  y prospección de yacimientos de petróleo;(Incluye los trabajos de perforación, sondeo y muestreo con fines de construcción o para estudios geofísicos, geológicos u otros similares, las perforaciones horizontales para el paso de cables o cañerías de drenaje, etc.. No incluye los servicios de perforación relacionados con la extracción de petróleo y gas, actividad 112000, ni los trabajos de perforación de pozos hidraúlicos, actividad 452510)
+393;50120;Pesca continental, fluvial y lacustre;
+394;50110;Pesca marítima, costera y de altura;(Incluye peces, crustáceos, moluscos y otros animales acuáticos)
+395;454400;Pintura y trabajos de decoración;
+396;20110;Plantación de bosques;
+397;930300;Pompas fúnebres y servicios conexos;
+398;153120;Preparación de arroz;
+399;151310;Preparación de conservas de frutas, hortalizas y legumbres;
+400;171111;Desmotado de algodón; preparación de fibras de algodón
+401;171112;Preparación de fibras textiles vegetales excepto de algodón;(Incluye la preparación de fibras de yute, ramio, cáñamo y lino)
+402;160010;Preparación de hojas de tabaco;
+403;154920;Preparación de hojas de té;
+404;153139;Preparación y molienda de legumbres y cereales n.c.p. (excepto trigo);
+405;552290;Preparación y venta de comidas para llevar n.c.p.;(Incluye casas de comidas, rotiserías y demás lugares que no poseen espacio para el consumo in situ)
+406;151112;Procesamiento de carne de ganado bovino;(Incluye los mataderos y frigoríficos que sacrifican principalmente ganado bovino)
+407;723000;Procesamiento de datos;
+408;921410;Producción de espectáculos teatrales y musicales;
+409;921110;Producción de filmes y videocintas;
+410;12220;Producción de huevos;
+411;12181;Producción de lana;
+412;12171;Producción de leche de ganado bovino;
+413;12179;Producción de leche de ganado n.c.p.;(Incluye la cría de ganado de búfala, cabra, etc. para la producción de leche)
+414;272090;Producción de metales no ferrosos n.c.p. y sus semielaborados;
+415;11520;Producción de otras formas de propagación de cultivos agrícolas;(Incluye gajos, bulbos, estacas enraizadas o no, esquejes, plantines, etc.)
+416;12182;Producción de pelos;(Incluye la cría de caprinos, camélidos, etc., para la obtención de pelos)
+417;11519;Producción de semillas de cultivos agrícolas n.c.p.;
+418;11513;Producción de semillas de hortalizas y legumbres, flores y plantas ornamentales y árboles frutales;
+419;11511;Producción de semillas híbridas de cereales y oleaginosas;
+420;11512;Producción de semillas varietales o autofecundadas de cereales, oleaginosas, y forrajeras;
+421;921302;Producción y distribución por televisión;(No incluye la transmisión, actividad 642010)
+422;924120;Promoción y producción de espectáculos deportivos;
+423;552210;Provisión de comidas preparadas para empresas;(Incluye el servicio de catering, el suministro de comidas para banquetes, bodas, fiestas y otras celebraciones, etc.)
+424;661300;Reaseguros;
+425;251120;Recauchutado y renovación de cubiertas;
+426;371000;Reciclamiento de desperdicios y desechos metálicos;
+427;372000;Reciclamiento de desperdicios y desechos no metálicos;
+428;50130;Recolección de productos marinos;(Incluye la recolección de algas marinas y otras plantas acuáticas, corales,  esponjas)
+429;900010;Recolección, reducción y eliminación de desperdicios;
+430;526909;Reparación de  artículos  n.c.p.;
+431;502220;Reparación de amortiguadores,  alineación de dirección y balanceo de ruedas;
+432;526200;Reparación de artículos eléctricos de uso doméstico;
+433;526100;Reparación de calzado y artículos de marroquinería;
+434;502210;Reparación de cámaras y cubiertas;(Incluye reparación de llantas)
+435;526901;Reparación de relojes y joyas;
+436;502600;Reparación y pintura de carrocerías; colocación de guardabarros y protecciones exteriores
+437;502500;Reparaciones eléctricas, del tablero e instrumental; reparación y recarga de baterías
+438;20120;Repoblación y conservación de bosques nativos y zonas forestadas;
+439;223000;Reproducción de grabaciones;
+440;151113;Saladero y peladero de cueros de ganado bovino;
+441;621000;Servicio de transporte aéreo de cargas;
+442;622000;Servicio de transporte aéreo de pasajeros;
+443;602290;Servicio de transporte automotor de pasajeros n.c.p.;
+444;602260;Servicio de transporte automotor de pasajeros para el turismo;
+445;602250;Servicio de transporte automotor interurbano de pasajeros;(Incluye los servicios de transporte regular de más de 50 km., los llamados servicios de larga distancia)
+446;602240;Servicio de transporte automotor urbano de oferta libre de pasajeros  excepto mediante taxis y remises, alquiler de autos con chofer y transporte escolar;(Incluye servicios urbanos especiales como charters, servicios contratados, servicios para ámbito portuario o aeroportuario, servicio de hipódromos y espectáculos deportivos y culturales)
+447;602210;Servicio de transporte automotor urbano regular de pasajeros;(Incluye los servicios de transporte regular de menos de 50 km.)
+448;602230;Servicio de transporte escolar;(Incluye el sevicio de transporte para colonias de vacaciones y clubes)
+449;601100;Servicio de transporte ferroviario de cargas;
+450;601220;Servicio de transporte ferroviario interurbano de pasajeros;
+451;601210;Servicio de transporte ferroviario urbano y suburbano de pasajeros;(Incluye el servicio de subterráneo y de premetro)
+452;612100;Servicio de transporte fluvial de cargas;
+453;612200;Servicio de transporte fluvial de pasajeros;
+454;611100;Servicio de transporte marítimo de carga;
+455;611200;Servicio de transporte marítimo de pasajeros;
+456;603200;Servicio de transporte por gasoductos;
+457;603100;Servicio de transporte por oleoductos y poliductos;
+458;602180;Servicio de transporte urbano de carga n.c.p.;(Incluye el transporte realizado por fleteros y distribuidores dentro del égido urbano)
+459;741102;Servicios  notariales;
+460;633120;Servicios  prestados por playas de estacionamiento y garajes;
+461;14190;Servicios agrícolas n.c.p;(Incluye planificación y diseño paisajista, plantación y mantenimiento de jardines, parques y cementerios, riego, polinización o alquiler de colmenas, control acústico de plagas, etc.)
+462;672200;Servicios auxiliares a la administración de fondos de jubilaciones y pensiones;
+463;671990;Servicios auxiliares a la intermediación financiera n.c.p., excepto a los servicios de seguros y de administración de fondos de jubilaciones y pensiones;
+464;672190;Servicios auxiliares a los servicios de seguros n.c.p.;
+465;751900;Servicios auxiliares para los servicios generales de la Administración Pública n.c.p.;(Incluye las actividades de servicios generales y de personal
+466;671200;Servicios bursátiles de mediación o por cuenta de terceros;(Incluye la actividad de agentes y sociedades de bolsa)
+467;634300;Servicios complementarios de apoyo turístico;
+468;633390;Servicios complementarios para el transporte aéreo n.c.p.;(Incluye servicios de prevención y extinción de incendios)
+469;633290;Servicios complementarios para el transporte por agua n.c.p.;(Incluye explotación de servicios de terminales como puertos y muelles)
+470;633190;Servicios complementarios para el transporte terrestre n.c.p.;(Incluye servicios de mantenimiento de material ferroviario, terminales y estaciones)
+471;921430;Servicios conexos a la producción de espectáculos teatrales y musicales;(Incluye diseño y manejo de escenografía, montaje de iluminación y sonido, funcionamiento de agencias de venta de billetes de teatro, conciertos, etc.)
+472;851210;Servicios de  atención ambulatoria;(Incluye las actividades de consultorios médicos de establecimientos sin internación, consultorios de guardia para resolver urgencias médicas, vacunatorios, centros del primer nivel de atención, etc. Los servicios de cirugía ambulatoria, tales como cirugía plástica, oftalmológica, artroscopía, electrocoagulación, lipoaspiración, etc.)
+473;922000;Servicios de agencias de noticias y servicios de información;(Incluye el suministro de material informativo, fotográfico y periodístico a medios de difusión)
+474;659910;"Servicios de agentes de mercado abierto ""puros""";(Incluye las transacciones extrabursátiles - por cuenta propia -)
+475;632000;Servicios de almacenamiento y depósito;(Incluye silos de granos, depósitos con cámaras frigoríficas, almacenes para mercancías diversas, incluso productos de zona franca, etc.)
+476;551100;Servicios de alojamiento en camping;(Incluye refugios de montaña)
+477;551222;Servicios de alojamiento en hoteles, hosterías y residenciales similares, excepto por hora, que incluyen servicio de restaurante al público;
+478;551223;Servicios de alojamiento en hoteles, hosterías y residenciales similares, excepto por hora, que no incluyen servicio de restaurante al público;
+479;551221;Servicios de alojamiento en pensiones;
+480;551210;Servicios de alojamiento por hora;
+481;701010;Servicios de alquiler y explotación de inmuebles para fiestas, convenciones y otros eventos similares;
+482;742101;Servicios relacionados con la construcción.;(Incluye los servicios prestados por ingenieros, arquitectos y técnicos)
+483;661210;Servicios de aseguradoras de riesgo de trabajo (A.R.T.);
+484;741409;Servicios de asesoramiento, dirección y gestión empresarial n.c.p.;
+485;741402;Servicios de asesoramiento, dirección y gestión empresarial realizados por integrantes de cuerpos de dirección en sociedades excepto las anónimas;
+486;741401;Servicios de asesoramiento, dirección y gestión empresarial realizados por integrantes de los órganos de administración y/o fiscalización en sociedades anónimas;
+487;911200;Servicios de asociaciones de especialistas en disciplinas científicas, prácticas profesionales y esferas técnicas;
+488;919900;Servicios de asociaciones n.c.p.;
+489;752100;Servicios de asuntos exteriores;
+490;853110;Servicios de atención a ancianos con alojamiento;
+491;853130;Servicios de atención a menores con alojamiento;
+492;853140;Servicios de atención a mujeres con alojamiento;
+493;853120;Servicios de atención a personas minusválidas con alojamiento;
+494;851220;Servicios de atención domiciliaria programada;(Incluye las actividades llevadas a cabo en establecimientos que ofrecen atención por módulos a domicilio y actividades de agentes sanitarios relacionados con la prevención y educación para la salud)
+495;552114;Servicios de bares y confiterías;(Incluye locales de expendio de bebidas con servicio de mesa y/o de mostrador para consumo en el lugar, salones de té, servicios de comedores escolares, cantinas deportivas, fábricas etc.)
+496;923100;Servicios de bibliotecas y archivos;
+497;671130;Servicios de bolsas de Comercio;
+498;671910;Servicios de casas y agencias de cambio;
+499;642020;Servicios de comunicación por medio de teléfono, telégrafo y télex;
+500;721000;Servicios de consultores en equipo de informática;
+501;722000;Servicios de consultores en informática y suministros de programas de informática;
+502;741200;Servicios de contabilidad y teneduría de libros, auditoría y asesoría fiscal;
+503;14130;Servicios de contratistas de mano de obra agrícola;(Incluye la poda de árboles, transplante, fumigación y desinfección manual, cosecha manual de citrus, algodón, etc.)
+504;14220;Servicios de contratistas de mano de obra pecuaria;(Incluye arreo, castración de aves, esquila de ovejas, recolección de estiércol,  etc. )
+505;641000;Servicios de correos;
+506;14120;Servicios de cosecha mecánica;(Incluye la cosecha mecánica de granos, caña de azúcar, algodón, forrajes, el enfardado, enrrollado, etc.)
+507;659890;Servicios de crédito n.c.p.;(Incluye el otorgamiento de préstamos por entidades que no reciben depósitos y que están fuera del sistema bancario, y cuyo destino es financiar el consumo, la vivienda u otros bienes)
+508;752200;Servicios de defensa;
+509;900020;Servicios de depuración de aguas residuales, alcantarillado y cloacas;
+510;851400;Servicios de diagnóstico;(Incluye las actividades de laboratorios de análisis clínicos y patológicos, centros de diagnóstico por imágenes, centros de endoscopía, de electrodiagnóstico, consultorios de hemodinamia, etc.)
+511;851600;Servicios de emergencias y traslados;
+512;659920;Servicios de entidades de tarjeta de compra y/o crédito;
+513;924990;Servicios de entretenimiento n.c.p.;
+514;749500;Servicios de envase y empaque;
+515;924910;Servicios de esparcimiento relacionados con juegos de azar y apuestas;
+516;921990;Servicios de espectáculos artísticos y de diversión  n.c.p.;(Incluye parques de diversión y centros similares, circenses, de títeres, mimos etc.)
+517;552119;Servicios de expendio de comidas y bebidas en establecimientos con servicio de mesa y/o en mostrador - excepto en heladerías - n.c.p.;
+518;633210;Servicios de explotación de infraestructura para el transporte por agua;  derechos de puerto
+519;633110;Servicios de explotación de infraestructura para el transporte terrestre; peajes y otros derechos
+520;911100;Servicios de federaciones de asociaciones, cámaras, gremios y organizaciones similares;
+521;659990;Servicios de financiación y actividades financieras n.c.p.;(Incluye actividades de inversión en acciones, títulos,  fondos comunes de inversión, la actividad de corredores de bolsa, las sociedades de inversión inmobiliaria  y sociedades de cartera,  arrendamiento financiero  o leasing,  securitización, etc..No incluye actividades financieras relacionadas con el otorgamiento de créditos)
+522;749400;Servicios de fotografía;
+523;635000;Servicios de gestión y logística para el transporte de mercaderías;(Incluye las actividades de los agentes aduaneros, actividades de empresas empaquetadoras, etc.)
+524;633220;Servicios de guarderías náuticas;
+525;633310;Servicios de hangares, estacionamiento y remolque de aeronaves;
+526;950000;Servicios de hogares privados que contratan servicio doméstico;
+527;551229;Servicios de hospedaje temporal n.c.p.;(Incluye hospedaje en estancias, residencias para estudiantes y albergues juveniles, apartamentos turísticos, etc.)
+528;851120;Servicios de hospital de día;(Incluye las actividades de tratamiento que no necesitan hospitalización a tiempo completo, tales como tratamientos oncológicos
+529;749600;Servicios de impresión heliográfica, fotocopia y otras formas de reproducciones;
+530;742109;Servicios de arquitectura e ingeniería y servicios conexos de asesoramiento técnico n.c.p.;
+531;652203;Servicios de intermediación financiera realizada por cajas de crédito;
+532;652201;Servicios de intermediación financiera realizada por las compañías financieras;
+533;652202;Servicios de intermediación financiera realizada por sociedades de ahorro y préstamo para la vivienda y otros inmuebles;
+534;851110;Servicios de internación;
+535;749290;Servicios de investigación y seguridad n.c.p.;
+536;923300;Servicios de jardines botánicos, zoológicos y de parques nacionales;
+537;752300;Servicios de justicia;
+538;651100;Servicios de la banca central;(Incluye las actividades del Banco Central de la República Argentina)
+539;652120;Servicios de la banca de inversión;
+540;652110;Servicios de la banca mayorista;
+541;652130;Servicios de la banca minorista;
+542;753000;Servicios de la seguridad social obligatoria;
+543;14111;Servicios de labranza, siembra, transplante  y  cuidados culturales;
+544;749300;Servicios de limpieza de edificios;
+545;631000;Servicios de manipulación de carga;(Incluye los servicios de carga y descarga de mercancías o equipajes de pasajeros, sin discriminar medios de transporte, la estiba y desestiba, etc.)
+546;14119;Servicios de maquinaria agrícola n.c.p., excepto los de cosecha mecánica;(Incluye enfardado, enrollado, envasado - silo-pack -, clasificación y secado, etc.)
+547;671120;Servicios de mercados a término;
+548;671110;Servicios de mercados y cajas de valores;
+549;602110;Servicios de mudanza;(Incluye servicios de guardamuebles)
+550;923200;Servicios de museos y preservación de lugares y edificios históricos;
+551;924110;Servicios de organización, dirección y gestión de prácticas deportivas y explotación de las instalaciones;(Incluye clubes, gimnasios y otras instalaciones para practicar deportes)
+552;919200;Servicios de organizaciones políticas;
+553;919100;Servicios de organizaciones religiosas;
+554;990000;Servicios de organizaciones y órganos extraterritoriales;
+555;930201;Servicios de peluquería;
+556;552113;"Servicios de pizzerías, ""fast food"" y locales de venta de comidas y bebidas al paso";(Incluye el expendio de pizza, empanadas, hamburguesas, productos lácteos excepto helados, etc.)
+557;672110;Servicios de productores  y asesores de seguros;
+558;752500;Servicios de protección civil;
+559;743000;Servicios de publicidad;
+560;14112;Servicios de pulverización, desinfección y fumigación aérea y terrestre, excepto la manual;
+561;921301;Servicios de radio;(No incluye la transmisión, actividad 642010)
+562;552112;Servicios de restaurantes y cantinas con espectáculo;
+563;552111;Servicios de restaurantes y cantinas sin espectáculo;
+564;921910;Servicios de salones de baile, discotecas y similares;
+565;924920;Servicios de salones de juegos;(Incluye salones de billar, pool, bowling, juegos electrónicos, etc.)
+566;900090;Servicios de saneamiento público n.c.p.;
+567;661130;Servicios de seguros a las personas excepto  los de salud y de vida;(Incluye los seguros de accidentes)
+568;661110;Servicios de seguros de salud;(Incluye medicina prepaga)
+569;661120;Servicios de seguros de vida;(Incluye los seguros de vida, retiro y sepelio)
+570;661220;Servicios de seguros patrimoniales excepto los de las aseguradoras de riesgo de trabajo;
+571;912000;Servicios de sindicatos;
+572;671920;Servicios de sociedades calificadoras de riesgos;
+573;642010;Servicios de transmisión de radio y televisión;
+574;642099;Servicios de transmisión n.c.p. de sonido, imágenes, datos u otra información;
+575;602220;Servicios de transporte automotor de pasajeros mediante taxis y remises; alquiler de autos con chofer
+576;602130;Servicios de transporte de animales;
+577;749210;Servicios de transporte de caudales y objetos de valor;
+578;602120;Servicios de transporte de mercaderías a granel, incluido el transporte por camión cisterna;
+579;851500;Servicios de tratamiento;(Incluye las actividades de centros de cobaltoterapia, de radiología convencional, de acelerador lineal de rehabilitación física, de psicoterapia, de hemoterapia, de rehabilitación psíquica, unidades de hemodiálisis, centros de medicina nuclear, etc.)
+580;930202;Servicios de tratamiento de belleza, excepto los de peluquería;
+581;749900;Servicios empresariales n.c.p.;
+582;20310;Servicios forestales de extracción de madera;(Incluye tala de árboles, acarreo y transporte en el interior del bosque, servicios realizados de terceros, etc.)
+583;20390;Servicios forestales excepto los relacionados con la extracción de madera;(Incluye protección contra incendios, evaluación de masas forestales en pie, estimación del valor de la madera, etc.)
+584;751100;Servicios generales de la administración pública;(Incluye el desempeño de funciones ejecutivas y legislativas de administración por parte de las entidades de la administración central, regional y local
+585;742102;Servicios geológicos y de prospección;
+586;851190;Servicios hospitalarios n.c.p.;
+587;702000;Servicios inmobiliarios realizados a cambio de una retribución o por contrata;(Incluye compra, venta, alquiler, remate, tasación, administración de bienes, etc., realizados a cambio de una retribución o por contrata, y la actividad de administradores, martilleros, rematadores, comisionistas, etc.)
+588;701090;Servicios inmobiliarios realizados por cuenta propia, con bienes propios o arrendados n.c.p.;
+589;741101;Servicios jurídicos;
+590;634100;Servicios mayoristas de agencias de viajes;
+591;634200;Servicios minoristas de agencias de viajes;
+592;930990;Servicios n.c.p.;(Incluye actividades de astrología y espiritismo, las realizadas con fines sociales como agencias matrimoniales, de investigaciones genealógicas, de contratación de acompañantes, la actividad de lustrabotas, acomodadores de autos, etc.)
+593;851300;Servicios odontológicos;
+594;14291;Servicios para el control de plagas, baños parasiticidas, etc.;
+595;930910;Servicios para el mantenimiento físico-corporal;(Incluye baños turcos, saunas, solarios, centros de masajes y adelgazamiento, etc.)
+596;752400;Servicios para el orden público y la seguridad;
+597;633320;Servicios para la aeronavegación;(Incluye servicios de terminales como aeropuertos, actividades de control de tráfico aéreo, etc.)
+598;15020;Servicios para la caza;
+599;633230;Servicios para la navegación;(Incluye servicios de practicaje y pilotaje, atraque y salvamento)
+600;50300;Servicios para la pesca;
+601;751300;Servicios para la regulación de la actividad económica;(Incluye la administración pública y la regulación de varios sectores económicos
+602;751200;Servicios para la regulación de las actividades sanitarias, educativas, culturales, y restantes servicios sociales, excepto seguridad social obligatoria;(Incluye  la gestión administrativa de programas destinados a mejorar el bienestar de los ciudadanos)
+603;14299;Servicios pecuarios n.c.p., excepto los veterinarios;
+604;924130;Servicios prestados por profesionales y técnicos, para la realización de prácticas deportivas;(Incluye la actividad realizada por deportistas, atletas, entrenadores, instructores, jueces árbitros, escuelas de deporte, etc.)
+605;724000;Servicios relacionados con bases de datos;
+606;742103;Servicios relacionados con la electrónica y las comunicaciones;
+607;222200;Servicios relacionados con la impresión;
+608;851900;Servicios relacionados con la salud humana n.c.p.;
+609;853190;Servicios sociales con alojamiento n.c.p.;
+610;853200;Servicios sociales sin alojamiento;
+611;852000;Servicios veterinarios;
+612;403000;Suministro de vapor y agua caliente;
+613;502400;Tapizado y retapizado;
+614;454900;Terminación de edificios y obras de ingeniería civil n.c.p.;(Incluye trabajos de ornamentación, limpieza exterior de edificios con vapor, chorro de arena u otros métodos, etc.)
+615;454200;Terminación y revestimiento de paredes y pisos;(Incluye yesería, salpicré, el pulido de pisos y la colocación de revestimientos de cerámicas, de piedra tallada, de suelos flexibles, parqué , baldosas, empapelados, etc.)
+616;182009;Terminación y teñido de pieles; fabricación de artículos de piel n.c.p.
+617;154911;Tostado, torrado y molienda de café;
+618;602190;Transporte automotor de cargas n.c.p.;(Incluye  servicios de transporte de carga refrigerada, automotores, transporte pesado y de mercaderías peligrosas)
+619;401200;Transporte de energía eléctrica;
+620;289200;Tratamiento y revestimiento de metales; obras de ingeniería mecánica en general realizadas a cambio de una retribución o por contrata
+621;513999;Venta al por mayor de artículos de uso doméstico y/o personal n.c.p;(Incluye artículos de platería excepto los incluidos en talabartería, cuadros y marcos que no sean obra de arte o de colección, sahumerios y artículos de santería, parrillas y hogares, etc.)
+622;514310;Venta al por mayor de aberturas;(Incluye puertas, ventanas, cortinas de enrollar de PVC, madera, aluminio, puertas corredizas, frentes de placards, etc.)
+623;514931;Venta al por mayor de abonos, fertilizantes y plaguicidas;
+624;512292;Venta al por mayor de alimentos para animales;
+625;513540;Venta al por mayor de artefactos para el hogar, eléctricos, a gas, kerosene u otros combustibles;(Incluye electrodomésticos, cocinas, estufas y salamandras, hornos, etc., excepto equipos de sonido, televisión y video)
+626;513532;Venta al por mayor de artículos de bazar y menaje excepto de vidrio;
+627;513940;Venta al por mayor de artículos de esparcimiento y deportes;(Incluye embarcaciones deportivas, armas y municiones, equipos de pesca, piletas de natación de lona o plástico, etc.)
+628;514330;Venta al por mayor de artículos de ferretería;
+629;513520;Venta al por mayor de artículos de iluminación;
+630;513223;Venta al por mayor de artículos de librería y papelería;
+631;514392;Venta al por mayor de artículos de loza, cerámica y porcelana de uso en construcción;
+632;513149;Venta al por mayor de artículos de marroquinería, paraguas y productos similares n.c.p.;
+633;513113;Venta al por mayor de artículos de mercería;(Incluye la venta de puntillas, galones, hombreras, agujas, botones, etc.)
+634;513410;Venta al por mayor de artículos de óptica y de fotografía;(Incluye venta de lentes de contacto, líquidos oftalmológicos, armazones, cristales ópticos, películas fotográficas, cámaras y accesorios para fotografía, etc.)
+635;514933;Venta al por mayor de artículos de plástico;
+636;514391;Venta al por mayor de artículos de plomería, electricidad, calefacción, obras sanitarias, etc.;
+637;513420;Venta al por mayor de artículos de relojería, joyería y fantasías;
+638;513115;Venta al por mayor de tapices y alfombras de materiales textiles;
+639;513531;Venta al por mayor de artículos de vidrio;
+640;512229;Venta al por mayor de aves, huevos y productos de granja y de la caza  n.c.p.;
+641;512319;Venta al por mayor de bebidas alcohólicas n.c.p.;(Incluye la venta de aperitivos con alcohol, cerveza, sidra, el fraccionamiento de alcohol, etc.)
+642;512312;Venta al por mayor de bebidas espiritosas;
+643;512320;Venta al por mayor de bebidas no alcohólicas;(Incluye la venta de aguas, sodas, bebidas refrescantes, jarabes, extractos, concentrados, gaseosas, jugos, etc.)
+644;513930;Venta al por mayor de bicicletas y rodados similares;(Incluye cochecitos y sillas de paseo para bebés, andadores, triciclos, etc.)
+645;512273;Venta al por mayor de café, té, yerba mate y otras infusiones y especias y condimentos;(Incluye la venta de sal, etc.)
+646;513130;Venta al por mayor de calzado excepto el ortopédico;(Incluye venta de calzado de cuero, tela, plástico, goma, etc.)
+647;512221;Venta al por mayor de carnes y derivados excepto las de aves.;
+648;514932;Venta al por mayor de caucho y productos de caucho excepto calzado y autopartes;
+649;512111;Venta al por mayor de cereales (incluye arroz), oleaginosas y forrajeras excepto semillas;
+650;512260;Venta al por mayor de chocolates, golosinas y productos para kioscos y polirrubros n.c.p., excepto cigarrillos;
+651;512400;Venta al por mayor de cigarrillos y productos de tabaco;
+652;514110;Venta al por mayor de combustibles y lubricantes para automotores;
+653;514199;Venta al por mayor de combustibles y lubricantes, excepto para automotores,  leña y carbón;
+654;513212;Venta al por mayor de diarios y revistas;
+655;513222;Venta al por mayor de envases de papel y cartón;
+656;515910;Venta al por mayor de equipo profesional y científico e instrumentos de medida y de control;
+657;513552;Venta al por mayor de equipos de sonido, radio y televisión, comunicaciones y sus componentes, repuestos y accesorios;
+658;515921;Venta al por mayor de equipos informáticos y máquinas electrónicas de escribir y calcular;(Incluye la venta de computadoras incluso las portátiles y sus periféricos, impresoras, suministros para computación, software, máquinas de escribir y calcular electrónicas, incluso las de bolsillo, cajas registradoras y de contabilidad electrónicas, etc.)
+659;512212;Venta al por mayor de fiambres y quesos;
+660;513111;Venta al por mayor de productos textiles excepto telas, tejidos, prendas y accesorios de vestir;(Incluye fibras vegetales, animales, minerales y manufacturadas)
+661;513991;Venta al por mayor de flores y plantas naturales y artificiales;
+662;513330;Venta al por mayor de instrumental médico y odontológico y artículos ortopédicos;(Incluye venta de vaporizadores, nebulizadores, masajeadores, termómetros, prótesis, muletas, plantillas, calzado ortopédico y otros artículos similares de uso personal o doméstico)
+663;513551;Venta al por mayor de instrumentos musicales, discos y casetes de audio y video, etc.;
+664;513920;Venta al por mayor de juguetes;(Incluye artículos de cotillón)
+665;514399;Venta al por mayor de ladrillos, cemento, cal, arena, piedra, mármol y materiales para la construcción n.c.p.;
+666;513211;Venta al por mayor de libros y publicaciones;
+667;513114;Venta al por mayor de mantelería, ropa de cama y artículos textiles para el hogar;
+668;515200;Venta al por mayor de máquinas - herramienta de uso general;
+669;515922;Venta al por mayor de máquinas y equipos de comunicaciones, control y seguridad;(Incluye venta de productos de telefonía, equipos de circuito cerrado, sistemas de alarmas y sirenas contra incendios, robos y otros sistemas de seguridad, equipos de facsímil, etc.)
+670;515990;Venta al por mayor de máquinas, equipo y materiales conexos n.c.p.;(Incluye máquinas registradoras de escribir y de calcular mecánicas, equipos para destruir documentos, etc.)
+671;515140;Venta al por mayor de máquinas, equipos e implementos de uso en imprentas, artes gráficas y actividades conexas;(Incluye venta de máquinas fotocopiadoras - excepto las de uso personal- copiadoras de planos, máquinas para imprimir, guillotinar, troquelar, encuadernar, etc.)
+672;515120;Venta al por mayor de máquinas, equipos e implementos de uso en la elaboración de alimentos, bebidas y tabacos;(Incluye máquinas para moler, picar y cocer alimentos, fabricadora de pastas, bateas, enfriadoras y envasadoras de bebidas, etc.)
+673;515130;Venta al por mayor de máquinas, equipos e implementos de uso en la fabricación de textiles, prendas y accesorios de vestir, calzado, artículos de cuero y marroquin;(Incluye venta de máquinas de coser, de cortar tejidos, de tejer, extender telas, robots de corte y otros equipos dirigidos por computadora para la industria textil y confeccionista, etc.)
+674;515160;Venta al por mayor de máquinas, equipos e implementos de uso en la industria del plástico y del caucho;(Incluye sopladora de envases, laminadora de plásticos, máquinas extrusoras y moldeadoras, etc.)
+675;515110;Venta al por mayor de máquinas, equipos e implementos de uso en los sectores agropecuario, jardinería, silvicultura, pesca y caza;(Incluye venta de tractores, cosechadoras, enfardadoras, remolques de carga y descarga automática, motosierras, cortadoras de césped autopropulsadas, etc.)
+676;515190;Venta al por mayor de máquinas, equipos e implementos de uso especial n.c.p.;(Incluye motoniveladoras, excavadoras, palas mecánicas, perforadoras-percutoras, etc.)
+677;515150;Venta al por mayor de máquinas, equipos e implementos de uso médico y paramédico;(Incluye venta de equipos de diagnóstico y tratamiento, camillas, cajas de cirugía, jeringas y otros implementos de material descartable, etc.)
+678;513910;Venta al por mayor de materiales y productos de limpieza;
+679;512119;Venta al por mayor de materias primas agrícolas y de la silvicultura n.c.p.;(Incluye el acopio y venta al por mayor de frutas, flores y plantas, etc.)
+680;512129;Venta al por mayor de materias primas pecuarias incluso animales vivos n.c.p.;
+681;513122;Venta al por mayor de medias y prendas de punto;
+682;519000;Venta al por mayor de mercancías n.c.p.;
+683;514200;Venta al por mayor de metales y minerales metalíferos;
+684;515420;Venta al por mayor de muebles e instalaciones para la industria, el comercio y los servicios n.c.p.;
+685;515410;Venta al por mayor de muebles e instalaciones para oficinas;
+686;513511;Venta al por mayor de muebles metálicos excepto de oficina;
+687;513519;Venta al por mayor de muebles n.c.p. excepto de oficina; artículos de mimbre y corcho
+688;512250;Venta al por mayor de pan, productos de confitería y pastas frescas;
+689;513221;Venta al por mayor de papel y productos de papel y cartón excepto envases;
+690;513950;Venta al por mayor de papeles para pared, revestimiento para pisos de goma, plástico y textiles,  y artículos similares para la decoración;
+691;503100;Venta al por mayor de partes, piezas y accesorios de vehículos automotores;
+692;512230;Venta al por mayor de pescado;
+693;513141;Venta al por mayor de pieles y cueros curtidos y salados;
+694;514340;Venta al por mayor de pinturas y productos conexos;
+695;513121;Venta al por mayor de prendas de vestir de cuero;
+696;513129;Venta al por mayor de prendas de vestir n.c.p.;
+697;512299;Venta al por mayor de productos alimenticios n.c.p.;(Incluye la venta de miel y derivados, productos congelados,  etc.)
+698;513320;Venta al por mayor de productos cosméticos, de tocador y de perfumería;
+699;514320;Venta al por mayor de productos de madera excepto muebles;(Incluye placas, varillas, parqué, machimbre, etc.)
+700;513992;Venta al por mayor de productos en general en almacenes y supermercados mayoristas, con predominio de alimentos y bebidas;
+701;513310;Venta al por mayor de productos farmacéuticos y  veterinarios;(Incluye venta de medicamentos y kits de diagnóstico como test de embarazo, hemoglucotest, vacunas, etc.)
+702;514920;Venta al por mayor de productos intermedios n.c.p., desperdicios y desechos de papel y cartón;
+703;514940;Venta al por mayor de productos intermedios n.c.p., desperdicios y desechos metálicos;(Incluye chatarra, viruta de metales diversos, etc.)
+704;514910;Venta al por mayor de productos intermedios n.c.p., desperdicios y desechos textiles;
+705;514990;Venta al por mayor de productos intermedios, desperdicios y desechos n.c.p.;(Incluye venta al por mayor de petróleo, minerales no metalíferos, etc.)
+706;512211;Venta al por mayor de productos lácteos;
+707;512112;Venta al por mayor de semillas;
+708;513142;Venta al por mayor de suelas y afines;(Incluye talabarterías, artículos regionales de cuero, almacenes de suelas, etc.)
+709;513112;Venta al por mayor de tejidos (telas);
+710;515300;Venta al por mayor de vehículos, equipos y máquinas para el transporte ferroviario, aéreo y de navegación;
+711;514350;Venta al por mayor de vidrios planos y templados;
+712;512311;Venta al por mayor de vino;
+713;511930;Venta al por mayor en comisión o consignación de  madera y materiales para la construcción;
+714;511960;Venta al por mayor en comisión o consignación de  maquinaria, equipo profesional industrial y comercial, embarcaciones y aeronaves;
+715;511990;Venta al por mayor en comisión o consignación de  mercaderías n.c.p.;(Incluye galerías de arte)
+716;511919;Venta al por mayor en comisión o consignación de alimentos, bebidas y tabaco n.c.p.;
+717;511111;Venta al por mayor en comisión o consignación de cereales (incluye arroz), oleaginosas y forrajeras excepto semillas;
+718;511940;Venta al por mayor en comisión o consignación de energía eléctrica, gas y combustibles;
+719;511950;Venta al por mayor en comisión o consignación de minerales, metales y productos químicos industriales;
+720;511970;Venta al por mayor en comisión o consignación de papel, cartón, libros, revistas, diarios, materiales de embalaje y artículos de librería;
+721;511119;Venta al por mayor en comisión o consignación de productos agrícolas n.c.p.;
+722;511920;Venta al por mayor en comisión o consignación de productos textiles, prendas de vestir, calzado excepto el ortopédico,  artículos de marroquinería, paraguas y simi;
+723;511112;Venta al por mayor en comisión o consignación de semillas;
+724;512240;Venta al por mayor y empaque de frutas, de legumbres y hortalizas frescas;(Incluye la conservación en cámaras frigoríficas por parte de los empaquetadores)
+725;523610;Venta al por menor de aberturas;(Incluye puertas, ventanas, cortinas de enrollar de PVC, madera, aluminio, puertas corredizas, frentes de placards, etc.)
+726;524910;Venta al por menor de antigüedades;(Incluye venta de antigüedades en remates)
+727;523942;Venta al por menor de armas y artículos de cuchillería, artículos para la caza y pesca;
+728;523550;Venta al por menor de artefactos  para el hogar, eléctricos, a gas, a kerosene u otros combustibles;(Incluye electrodomésticos -excepto equipos de sonido-, televisión y video, cocinas, estufas, hornos, etc.)
+729;523540;Venta al por menor de artículos de bazar y menaje;
+730;523991;Venta al por menor de artículos de caucho excepto cámaras y cubiertas;
+731;523994;Venta al por menor de artículos de colección y objetos de arte;
+732;523941;Venta al por menor de artículos de deporte, equipos e indumentaria deportiva;
+733;523630;Venta al por menor de artículos de ferretería;
+734;523530;Venta al por menor de artículos de iluminación;
+735;523490;Venta al por menor de artículos de marroquinería, paraguas y similares n.c.p.;
+736;523710;Venta al por menor de artículos de óptica y fotografía;
+737;523720;Venta al por menor de artículos de relojería, joyería y fantasía;
+738;523999;Venta al por menor de artículos nuevos n.c.p.;(Incluye casas de regalos, de artesanías y artículos regionales excepto de talabartería, de artículos religiosos, de monedas y sellos, etc.)
+739;523590;Venta al por menor de artículos para el hogar n.c.p.;
+740;523650;Venta al por menor de artículos para plomería e instalación de gas;
+741;523410;Venta al por menor de artículos regionales y de talabartería;(Incluye venta de artículos de talabartería y regionales de cuero, plata, alpaca y similares)
+742;523290;Venta al por menor de artículos textiles n.c.p. excepto prendas de vestir;(Incluye la venta al por menor de tapices, alfombras,  etc.)
+743;524990;Venta al por menor de artículos usados n.c.p. excluidos automotores y motocicletas;
+744;503220;Venta al por menor de baterías;
+745;522500;Venta al por menor de bebidas;
+746;522420;Venta al por menor de bombones, golosinas y demás productos de confitería;
+747;523420;Venta al por menor de calzado excepto el ortopédico;
+748;503210;Venta al por menor de cámaras y cubiertas;
+749;522210;Venta al por menor de carnes rojas, menudencias y chacinados frescos;
+750;523520;Venta al por menor de colchones y somieres;
+751;505000;Venta al por menor de combustible para vehículos automotores y motocicletas;(Incluye estaciones de servicios y la venta al por menor de productos lubricantes y refrigerantes para automotores y motocicletas)
+752;523220;Venta al por menor de confecciones para el hogar;(Incluye la venta al por menor de sábanas, toallas, mantelería, cortinas confeccionadas, colchas, cubrecamas, etc.)
+753;523660;Venta al por menor de cristales, espejos, mamparas y cerramientos;
+754;523820;Venta al por menor de diarios y revistas;
+755;523993;Venta al por menor de equipo profesional y científico e instrumentos de medida y de control;
+756;522112;Venta al por menor de fiambres y embutidos;
+757;523911;Venta al por menor de flores y plantas naturales y artificiales;
+758;522300;Venta al por menor de frutas, legumbres y hortalizas frescas;
+759;523960;Venta al por menor de fuel oil, gas en garrafas, carbón y leña;(No incluye las estaciones de servicios que se clasifican en 505000)
+760;523210;Venta al por menor de hilados, tejidos y artículos de mercería;(Incluye mercerías, sederías, comercios de venta de lanas y otros hilados, etc.)
+761;522220;Venta al por menor de huevos, carne de aves y  productos de granja y de la caza n.c.p.;
+762;523320;Venta al por menor de indumentaria de trabajo, uniformes y guardapolvos;
+763;523330;Venta al por menor de indumentaria para bebés y niños;
+764;523130;Venta al por menor de instrumental médico y odontológico y artículos ortopédicos;(Incluye venta de vaporizadores, nebulizadores, masajeadores, termómetros, prótesis, muletas, plantillas, calzado ortopédico y otros artículos similares de uso personal o doméstico)
+765;523560;Venta al por menor de instrumentos musicales, equipos de sonido, casetes de audio y video, discos de audio y video;
+766;523930;Venta al por menor de juguetes y artículos de cotillón;
+767;523810;Venta al por menor de libros y publicaciones;
+768;524200;Venta al por menor de libros, revistas y similares usados;
+769;523620;Venta al por menor de maderas y artículos de madera  y corcho excepto muebles;
+770;523950;Venta al por menor de máquinas y equipos para oficina y sus componentes y repuestos;
+771;523992;Venta al por menor de máquinas y motores y sus repuestos;
+772;523690;Venta al por menor de materiales de construcción n.c.p.;
+773;523920;Venta al por menor de materiales y productos de limpieza;
+774;523510;Venta al por menor de muebles excepto de oficina, la industria, el comercio y los servicios; artículos de mimbre y corcho
+775;524100;Venta al por menor de muebles usados;
+776;522410;Venta al por menor de pan y productos de panadería;
+777;523830;Venta al por menor de papel, cartón, materiales de embalaje y artículos de librería;
+778;523670;Venta al por menor de papeles para pared, revestimientos para pisos y artículos similares para la decoración;
+779;503290;Venta al por menor de partes, piezas y accesorios excepto cámaras, cubiertas y baterías;
+780;522910;Venta al por menor de pescados y  productos de la pesca;
+781;523640;Venta al por menor de pinturas y productos conexos;
+782;523391;Venta al por menor de prendas de vestir de cuero y sucedáneos excepto calzado;
+783;523399;Venta al por menor de prendas y accesorios de vestir n.c.p. excepto calzado, artículos de marroquinería, paraguas y similares;
+784;522999;Venta al por menor de productos alimentarios n.c.p., en comercios especializados;
+785;523120;Venta al por menor de productos cosméticos, de tocador y de perfumería;
+786;522120;Venta al por menor de productos de almacén y dietética;
+787;523110;Venta al por menor de productos farmacéuticos y de herboristería;
+788;522111;Venta al por menor de productos lácteos;
+789;523970;Venta al por menor de productos veterinarios y animales domésticos;
+790;523310;Venta al por menor de ropa interior, medias, prendas para dormir y para la playa;(Incluye corsetería, lencería, camisetas, medias excepto ortopédicas, pijamas, camisones y saltos de cama, salidas de baño, trajes de baño, etc.)
+791;523912;Venta al por menor de semillas, abonos, fertilizantes y otros productos de vivero;
+792;522991;Venta al por menor de tabaco y sus productos;
+793;521110;Venta al por menor en hipermercados con predominio de productos alimentarios y bebidas;
+794;521190;Venta al por menor en kioscos, polirrubros y comercios no especializados n.c.p.;
+795;521130;Venta al por menor en minimercados con predominio de productos alimentarios y bebidas;
+796;525200;Venta al por menor en puestos móviles;
+797;521120;Venta al por menor en supermercados con predominio de productos alimentarios y bebidas;
+798;521200;Venta al por menor excepto la especializada, sin predominio de productos alimentarios y bebidas;
+799;525900;Venta al por menor no realizada en establecimientos  n.c.p.;(Incluye venta mediante máquinas expendedoras, vendedores ambulantes y vendedores a domicilio)
+800;525100;Venta al por menor por correo, televisión, internet y otros medios de comunicación;
+801;512272;Venta al por mayor de aceites y grasas;
+802;501210;Venta de autos, camionetas y utilitarios, usados;(Incluye taxis, jeeps, 4x4 y vehículos similares)
+803;501110;Venta de autos, camionetas y utilitarios, nuevos;(Incluye taxis, jeeps, 4x4 y vehículos similares)
+804;512271;Venta al por mayor de azúcar;
+805;512291;Venta al por mayor de frutas, legumbres y cereales secos y en conserva;
+806;512121;Venta al por mayor de lanas, cueros en bruto y productos afines;
+807;504010;Venta de motocicletas y de sus partes, piezas y accesorios;
+808;512279;Venta al por mayor de productos y subproductos de molinería n.c.p.;
+809;501290;Venta de vehículos automotores, usados n.c.p.;(Incluye, casas rodantes, trailers, camiones, remolques, ambulancias, ómnibus, microbuses y similares, cabezas tractoras, etc..)
+810;501190;Venta de vehículos automotores, nuevos n.c.p.;(Incluye casas rodantes, trailers, camiones, remolques, ambulancias, ómnibus, microbuses y similares, cabezas tractoras, etc.)

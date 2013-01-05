@@ -1,0 +1,125 @@
+timestamp: 2013-01-05T13:36:54.799519
+CREATE TABLE auth_user(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    first_name CHAR(128),
+    last_name CHAR(128),
+    username CHAR(512),
+    sexo CHAR(512),
+    email CHAR(128),
+    password CHAR(512),
+    telefono INTEGER,
+    celular CHAR(512),
+    f_alta TIMESTAMP,
+    registration_key CHAR(512),
+    reset_password_key CHAR(512),
+    registration_id CHAR(512)
+);
+success!
+timestamp: 2013-01-05T13:36:54.943970
+CREATE TABLE auth_group(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    role CHAR(512),
+    description TEXT
+);
+success!
+timestamp: 2013-01-05T13:36:55.056324
+CREATE TABLE auth_membership(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER REFERENCES auth_user (id) ON DELETE CASCADE,
+    group_id INTEGER REFERENCES auth_group (id) ON DELETE CASCADE
+);
+success!
+timestamp: 2013-01-05T13:36:55.190122
+CREATE TABLE auth_permission(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    group_id INTEGER REFERENCES auth_group (id) ON DELETE CASCADE,
+    name CHAR(512),
+    table_name CHAR(512),
+    record_id INTEGER
+);
+success!
+timestamp: 2013-01-05T13:36:55.314150
+CREATE TABLE auth_event(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    time_stamp TIMESTAMP,
+    client_ip CHAR(512),
+    user_id INTEGER REFERENCES auth_user (id) ON DELETE CASCADE,
+    origin CHAR(512),
+    description TEXT
+);
+success!
+timestamp: 2013-01-05T13:36:55.426955
+CREATE TABLE auth_cas(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    user_id INTEGER REFERENCES auth_user (id) ON DELETE CASCADE,
+    created_on TIMESTAMP,
+    service CHAR(512),
+    ticket CHAR(512),
+    renew CHAR(1)
+);
+success!
+timestamp: 2013-01-05T13:36:55.538175
+CREATE TABLE sindicatos(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nombre CHAR(512)
+);
+success!
+timestamp: 2013-01-05T13:36:55.650862
+CREATE TABLE categorias(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    sindicato INTEGER REFERENCES sindicatos (id) ON DELETE CASCADE,
+    nombre CHAR(512)
+);
+success!
+timestamp: 2013-01-05T13:36:55.761918
+CREATE TABLE clases(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    categoria INTEGER REFERENCES categorias (id) ON DELETE CASCADE,
+    Tipo CHAR(1)
+);
+success!
+timestamp: 2013-01-05T13:36:55.874167
+CREATE TABLE antiguedad(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nombre CHAR(512)
+);
+success!
+timestamp: 2013-01-05T13:36:56.042540
+CREATE TABLE actividades(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    codigo INTEGER,
+    nombre CHAR(512),
+    detalle TEXT
+);
+success!
+timestamp: 2013-01-05T13:36:56.187583
+CREATE TABLE empleadores(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nombre CHAR(512),
+    cuit CHAR(512),
+    domicilio CHAR(512),
+    provincia CHAR(512),
+    localidad CHAR(512),
+    cp CHAR(512),
+    cactividad TEXT,
+    nactividad CHAR(512),
+    telefono CHAR(512),
+    email CHAR(512)
+);
+success!
+timestamp: 2013-01-05T13:36:56.288976
+CREATE TABLE empleados(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    legajo CHAR(512),
+    apaterno CHAR(512),
+    amaterno CHAR(512),
+    nombre CHAR(512),
+    cuil CHAR(512),
+    nacionalidad CHAR(512),
+    ecivil CHAR(512),
+    fnac CHAR(512),
+    domicilio CHAR(512),
+    tdoc CHAR(512),
+    ndoc CHAR(512)
+);
+success!
