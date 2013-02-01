@@ -1,4 +1,190 @@
-timestamp: 2013-01-05T13:36:54.799519
+timestamp: 2013-01-07T10:35:38.929333
+CREATE TABLE auth_user(
+    id INT AUTO_INCREMENT NOT NULL,
+    first_name VARCHAR(128),
+    last_name VARCHAR(128),
+    username VARCHAR(255),
+    sexo VARCHAR(255),
+    email VARCHAR(128),
+    password VARCHAR(255),
+    telefono INT,
+    celular VARCHAR(255),
+    f_alta DATETIME,
+    registration_key VARCHAR(255),
+    reset_password_key VARCHAR(255),
+    registration_id VARCHAR(255),
+    PRIMARY KEY(id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2013-01-07T10:35:39.032594
+CREATE TABLE auth_group(
+    id INT AUTO_INCREMENT NOT NULL,
+    role VARCHAR(255),
+    description LONGTEXT,
+    PRIMARY KEY(id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2013-01-07T10:35:39.112339
+CREATE TABLE auth_membership(
+    id INT AUTO_INCREMENT NOT NULL,
+    user_id INT, INDEX user_id__idx (user_id), FOREIGN KEY (user_id) REFERENCES auth_user (id) ON DELETE CASCADE,
+    group_id INT, INDEX group_id__idx (group_id), FOREIGN KEY (group_id) REFERENCES auth_group (id) ON DELETE CASCADE,
+    PRIMARY KEY(id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2013-01-07T10:35:39.278005
+CREATE TABLE auth_permission(
+    id INT AUTO_INCREMENT NOT NULL,
+    group_id INT, INDEX group_id__idx (group_id), FOREIGN KEY (group_id) REFERENCES auth_group (id) ON DELETE CASCADE,
+    name VARCHAR(255),
+    table_name VARCHAR(255),
+    record_id INT,
+    PRIMARY KEY(id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2013-01-07T10:35:39.332542
+CREATE TABLE auth_event(
+    id INT AUTO_INCREMENT NOT NULL,
+    time_stamp DATETIME,
+    client_ip VARCHAR(255),
+    user_id INT, INDEX user_id__idx (user_id), FOREIGN KEY (user_id) REFERENCES auth_user (id) ON DELETE CASCADE,
+    origin VARCHAR(255),
+    description LONGTEXT,
+    PRIMARY KEY(id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2013-01-07T10:35:39.432548
+CREATE TABLE auth_cas(
+    id INT AUTO_INCREMENT NOT NULL,
+    user_id INT, INDEX user_id__idx (user_id), FOREIGN KEY (user_id) REFERENCES auth_user (id) ON DELETE CASCADE,
+    created_on DATETIME,
+    service VARCHAR(255),
+    ticket VARCHAR(255),
+    renew CHAR(1),
+    PRIMARY KEY(id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2013-01-07T10:35:39.487623
+CREATE TABLE sindicatos(
+    id INT AUTO_INCREMENT NOT NULL,
+    nombre VARCHAR(255),
+    PRIMARY KEY(id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2013-01-07T10:35:39.543119
+CREATE TABLE categorias(
+    id INT AUTO_INCREMENT NOT NULL,
+    sindicato INT, INDEX sindicato__idx (sindicato), FOREIGN KEY (sindicato) REFERENCES sindicatos (id) ON DELETE CASCADE,
+    nombre VARCHAR(255),
+    PRIMARY KEY(id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2013-01-07T10:35:39.609932
+CREATE TABLE clases(
+    id INT AUTO_INCREMENT NOT NULL,
+    categoria INT, INDEX categoria__idx (categoria), FOREIGN KEY (categoria) REFERENCES categorias (id) ON DELETE CASCADE,
+    Tipo VARCHAR(1),
+    PRIMARY KEY(id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2013-01-07T10:35:39.676605
+CREATE TABLE antiguedad(
+    id INT AUTO_INCREMENT NOT NULL,
+    nombre VARCHAR(255),
+    PRIMARY KEY(id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2013-01-07T10:35:39.743830
+CREATE TABLE actividades(
+    id INT AUTO_INCREMENT NOT NULL,
+    codigo VARCHAR(255),
+    nombre VARCHAR(255),
+    detalle LONGTEXT,
+    PRIMARY KEY(id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2013-01-07T10:35:39.821532
+CREATE TABLE empleadores(
+    id INT AUTO_INCREMENT NOT NULL,
+    nombre VARCHAR(255),
+    cuit VARCHAR(255),
+    domicilio VARCHAR(255),
+    provincia VARCHAR(255),
+    localidad VARCHAR(255),
+    cp VARCHAR(255),
+    cactividad LONGTEXT,
+    nactividad INT, INDEX nactividad__idx (nactividad), FOREIGN KEY (nactividad) REFERENCES db.actividades (id) ON DELETE CASCADE,
+    telefono VARCHAR(255),
+    email VARCHAR(255),
+    PRIMARY KEY(id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+timestamp: 2013-01-07T10:37:35.009649
+CREATE TABLE empleadores(
+    id INT AUTO_INCREMENT NOT NULL,
+    nombre VARCHAR(255),
+    cuit VARCHAR(255),
+    domicilio VARCHAR(255),
+    provincia VARCHAR(255),
+    localidad VARCHAR(255),
+    cp VARCHAR(255),
+    cactividad LONGTEXT,
+    nactividad INT, INDEX nactividad__idx (nactividad), FOREIGN KEY (nactividad) REFERENCES db.actividades (id) ON DELETE CASCADE,
+    telefono VARCHAR(255),
+    email VARCHAR(255),
+    PRIMARY KEY(id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+timestamp: 2013-01-07T10:50:11.680919
+CREATE TABLE empleadores(
+    id INT AUTO_INCREMENT NOT NULL,
+    nombre VARCHAR(255),
+    PRIMARY KEY(id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2013-01-07T10:50:12.122722
+CREATE TABLE empleados(
+    id INT AUTO_INCREMENT NOT NULL,
+    legajo VARCHAR(255),
+    apaterno VARCHAR(255),
+    amaterno VARCHAR(255),
+    nombre VARCHAR(255),
+    cuil VARCHAR(255),
+    nacionalidad VARCHAR(255),
+    ecivil VARCHAR(255),
+    fnac VARCHAR(255),
+    domicilio VARCHAR(255),
+    tdoc VARCHAR(255),
+    ndoc VARCHAR(255),
+    PRIMARY KEY(id)
+) ENGINE=InnoDB CHARACTER SET utf8;
+success!
+timestamp: 2013-01-07T10:51:10.617832
+ALTER TABLE empleadores ADD provincia VARCHAR(255);
+success!
+timestamp: 2013-01-07T10:51:10.789294
+ALTER TABLE empleadores ADD cuit VARCHAR(255);
+success!
+timestamp: 2013-01-07T10:51:10.889619
+ALTER TABLE empleadores ADD cactividad VARCHAR(255);
+success!
+timestamp: 2013-01-07T10:51:10.978662
+ALTER TABLE empleadores ADD nactividad VARCHAR(255);
+success!
+timestamp: 2013-01-07T10:51:11.100826
+ALTER TABLE empleadores ADD localidad VARCHAR(255);
+success!
+timestamp: 2013-01-07T10:51:11.197295
+ALTER TABLE empleadores ADD cp VARCHAR(255);
+success!
+timestamp: 2013-01-07T10:51:11.411997
+ALTER TABLE empleadores ADD telefono VARCHAR(255);
+success!
+timestamp: 2013-01-07T10:51:11.512160
+ALTER TABLE empleadores ADD email VARCHAR(255);
+success!
+timestamp: 2013-01-07T10:51:11.601196
+ALTER TABLE empleadores ADD domicilio VARCHAR(255);
+success!
+timestamp: 2013-01-07T11:09:34.023822
 CREATE TABLE auth_user(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     first_name CHAR(128),
@@ -15,21 +201,21 @@ CREATE TABLE auth_user(
     registration_id CHAR(512)
 );
 success!
-timestamp: 2013-01-05T13:36:54.943970
+timestamp: 2013-01-07T11:09:34.277053
 CREATE TABLE auth_group(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     role CHAR(512),
     description TEXT
 );
 success!
-timestamp: 2013-01-05T13:36:55.056324
+timestamp: 2013-01-07T11:09:34.400133
 CREATE TABLE auth_membership(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     user_id INTEGER REFERENCES auth_user (id) ON DELETE CASCADE,
     group_id INTEGER REFERENCES auth_group (id) ON DELETE CASCADE
 );
 success!
-timestamp: 2013-01-05T13:36:55.190122
+timestamp: 2013-01-07T11:09:34.522785
 CREATE TABLE auth_permission(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     group_id INTEGER REFERENCES auth_group (id) ON DELETE CASCADE,
@@ -38,7 +224,7 @@ CREATE TABLE auth_permission(
     record_id INTEGER
 );
 success!
-timestamp: 2013-01-05T13:36:55.314150
+timestamp: 2013-01-07T11:09:34.647319
 CREATE TABLE auth_event(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     time_stamp TIMESTAMP,
@@ -48,7 +234,7 @@ CREATE TABLE auth_event(
     description TEXT
 );
 success!
-timestamp: 2013-01-05T13:36:55.426955
+timestamp: 2013-01-07T11:09:34.768996
 CREATE TABLE auth_cas(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     user_id INTEGER REFERENCES auth_user (id) ON DELETE CASCADE,
@@ -58,41 +244,41 @@ CREATE TABLE auth_cas(
     renew CHAR(1)
 );
 success!
-timestamp: 2013-01-05T13:36:55.538175
+timestamp: 2013-01-07T11:09:34.892499
 CREATE TABLE sindicatos(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     nombre CHAR(512)
 );
 success!
-timestamp: 2013-01-05T13:36:55.650862
+timestamp: 2013-01-07T11:09:35.014662
 CREATE TABLE categorias(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     sindicato INTEGER REFERENCES sindicatos (id) ON DELETE CASCADE,
     nombre CHAR(512)
 );
 success!
-timestamp: 2013-01-05T13:36:55.761918
+timestamp: 2013-01-07T11:09:35.117361
 CREATE TABLE clases(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     categoria INTEGER REFERENCES categorias (id) ON DELETE CASCADE,
     Tipo CHAR(1)
 );
 success!
-timestamp: 2013-01-05T13:36:55.874167
+timestamp: 2013-01-07T11:09:35.218049
 CREATE TABLE antiguedad(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     nombre CHAR(512)
 );
 success!
-timestamp: 2013-01-05T13:36:56.042540
+timestamp: 2013-01-07T11:09:35.330671
 CREATE TABLE actividades(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    codigo INTEGER,
+    codigo CHAR(512),
     nombre CHAR(512),
     detalle TEXT
 );
 success!
-timestamp: 2013-01-05T13:36:56.187583
+timestamp: 2013-01-07T11:09:35.453600
 CREATE TABLE empleadores(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     nombre CHAR(512),
@@ -101,13 +287,13 @@ CREATE TABLE empleadores(
     provincia CHAR(512),
     localidad CHAR(512),
     cp CHAR(512),
-    cactividad TEXT,
+    cactividad CHAR(512),
     nactividad CHAR(512),
     telefono CHAR(512),
     email CHAR(512)
 );
 success!
-timestamp: 2013-01-05T13:36:56.288976
+timestamp: 2013-01-07T11:09:35.576603
 CREATE TABLE empleados(
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     legajo CHAR(512),
@@ -121,5 +307,66 @@ CREATE TABLE empleados(
     domicilio CHAR(512),
     tdoc CHAR(512),
     ndoc CHAR(512)
+);
+success!
+timestamp: 2013-01-07T13:04:31.159036
+ALTER TABLE actividades ADD comentario TEXT;
+timestamp: 2013-01-08T15:13:42.905499
+CREATE TABLE gremios(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    rubro CHAR(512),
+    sindicato CHAR(512),
+    web CHAR(512)
+);
+success!
+timestamp: 2013-01-08T15:21:31.712980
+ALTER TABLE categorias ADD gremio INTEGER REFERENCES gremios (id) ON DELETE CASCADE;
+timestamp: 2013-01-08T15:21:31.851942
+ALTER TABLE categorias ADD basico CHAR(512);
+timestamp: 2013-01-08T16:11:42.134260
+ALTER TABLE empleadores ADD convenios CHAR(512);
+timestamp: 2013-01-11T02:51:22.090998
+CREATE TABLE notas(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nota TEXT,
+    fecha DATE
+);
+success!
+timestamp: 2013-01-11T16:03:56.987857
+ALTER TABLE notas ADD hora TIME;
+timestamp: 2013-01-12T15:10:17.253370
+CREATE TABLE jornadas(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nombre CHAR(512)
+);
+success!
+timestamp: 2013-01-14T13:16:47.308739
+ALTER TABLE jornadas ADD descripcion TEXT;
+timestamp: 2013-01-14T13:16:47.440807
+ALTER TABLE jornadas ADD horas INTEGER;
+timestamp: 2013-01-18T01:46:08.272107
+CREATE TABLE valores(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    gremio INTEGER REFERENCES gremios (id) ON DELETE CASCADE,
+    nombre CHAR(512),
+    fecha CHAR(512),
+    pago CHAR(512),
+    timporte CHAR(512),
+    valor CHAR(512)
+);
+success!
+timestamp: 2013-01-24T17:59:12.140301
+ALTER TABLE valores ADD sindicato TEXT;
+timestamp: 2013-01-24T18:00:11.682626
+ALTER TABLE valores ADD sindicdo TEXT;
+timestamp: 2013-01-26T13:56:19.318153
+ALTER TABLE empleados ADD convenio CHAR(512);
+timestamp: 2013-01-26T13:56:19.461389
+ALTER TABLE empleados ADD empleador INTEGER REFERENCES empleadores (id) ON DELETE CASCADE;
+timestamp: 2013-01-29T03:15:05.915849
+CREATE TABLE convenios(
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    empleador INTEGER REFERENCES empleadores (id) ON DELETE CASCADE,
+    convenio INTEGER REFERENCES gremios (id) ON DELETE CASCADE
 );
 success!

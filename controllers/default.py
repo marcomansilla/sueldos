@@ -1,26 +1,48 @@
 # -*- coding: utf-8 -*-
 # this file is released under public domain and you can use without limitations
 
-#########################################################################
-## This is a samples controller
-## - index is the default action of any application
-## - user is required for authentication and authorization
-## - download is for downloading files uploaded in the db (does streaming)
-## - call exposes all registered services (none by default)
-#########################################################################
-
-
 def index():
-    """
-    example action using the internationalization operator T and flash
-    rendered by views/default/index.html or views/generic.html
+    response.flash = T("Sistema listo y funcional!")
+    return dict()       
 
-    if you need a simple wiki simple replace the two lines below with:
-    return auth.wiki()
-    """
-    response.flash = T("Welcome to web2py!")
-    return dict(message=T('Hello World'))
+def clientes():
+    # Nueva anotacion
+    form=SQLFORM(db.notas)
+    if form.process().accepted:
+        redirect(URL('default','clientes'))
+        response.flash='Su nota ha sido agendada'
+    elif form.errors:
+        response.flash='Por favor revise el formulario'
 
+    # nuevo empleador
+    nuevo=SQLFORM(db.empleadores)
+    if nuevo.process().accepted:
+        session.flash='Se ha agregado el nuevo cliente'
+    elif nuevo.errors:
+        session.flash='El formulario tiene errores'
+
+    # Nuevo convenio por cada empleador
+    convenionuevo=SQLFORM(db.convenios)
+    if convenionuevo.process().accepted:
+        session.flash='El convenio ha sido agregado'
+    elif convenionuevo.errors:
+        session.flash='El formulario tiene errores'
+    
+    anotaciones=db(db.notas.id>0).select(limitby=(0,5), orderby=~db.notas.fecha)
+    lista=db(db.empleadores.id>0).select()
+    return dict(nota=form, anotaciones=anotaciones, lista=lista, nuevo=nuevo, convenionuevo=convenionuevo)
+
+def convenios():
+    nuevo=SQLFORM(db.gremios)
+
+    if nuevo.process().accepted:
+        redirect(URL('default','convenios'))
+        response.flash='Se ha agregado el nuevo gremio'
+    elif nuevo.errors:
+        response.flash='El formulario tiene errores'
+
+    listado=db().select(db.gremios.ALL)
+    return dict(listado=listado, nuevo=nuevo )
 
 def user():
     """
