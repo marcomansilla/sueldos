@@ -1,0 +1,14 @@
+syntax: glob
+*.py[c/o]
+
+*.py?
+
+*.table
+sql.log
+*sqlite
+
+
+errors
+sessions
+
+*/*.py?
