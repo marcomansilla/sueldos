@@ -123,18 +123,18 @@
     </tr>
       </tbody>
     </table>
-    <a href="#{{=elemento.id}}nconvenio" role="button" class="btn btn-primary" data-toggle="modal"><i class="icon-plus-sign icon-white"></i> Agregar</a>
-    {{=A(I(_class='icon-eye-open icon-white'),' Ver', _href=URL('gestion','nomina', vars=dict(id=elemento.id, empleador=elemento.nombre)), _class="btn btn-primary")}}
+    <a href="{{=URL('empresas','convenios', vars=dict(id=elemento.id))}}" role="button" class="btn btn-primary" data-toggle="modal" data-target="#convenios"><i class="icon-plus-sign icon-white"></i> Agregar</a>
   </div>
 </div>
 {{pass}}
 
+
 <!--Modalbox para agregar convenios-->
 {{for elemento in lista:}}
-<div id="{{=elemento.id}}nconvenio" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="anotadorLabel" aria-hidden="true">
+<div id="convenios" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="anotadorLabel" aria-hidden="true">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="{{=elemento.id}}nconvenioLabel">Nuevo convenio</h3>
+    <h3 id="conveniosLabel">Nuevo convenio</h3>
   </div>
   <div class="modal-body">
     

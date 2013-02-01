@@ -12,3 +12,13 @@ def nuevoempleador():
         response.flash='Por favor complete los datos del empleador'
         
     return dict(form=form)
+
+def convenios():
+
+    nueva=SQLFORM(db.convenios)
+    if nueva.process().accepted:
+        response.flash='Agregado el convenio'
+    elif nueva.errors:
+        response.flash='Algo anda mal'
+         
+    return dict(nueva=nueva)
