@@ -1,0 +1,20 @@
+{{=lista}}
+{{=len(lista)}}
+
+
+{{=SQLTABLE(db((db.convenios.empleador==request.vars.id)&(db.convenios.convenio==db.gremios.id)).select())}}
+
+<a href="#nuevo" role="button" class="btn btn-primary" data-toggle="modal"><i class="icon-plus-sign icon-white"></i> Agregar convenio</a>
+
+<div id="nuevo" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="anotadorLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="nuevo">Datos del empleador</h3>
+  </div>
+  <div class="modal-body">
+    {{=nuevo}}    
+  </div>
+</div>
+
+
+

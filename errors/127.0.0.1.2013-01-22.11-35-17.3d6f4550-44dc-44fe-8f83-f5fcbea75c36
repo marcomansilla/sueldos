@@ -1,0 +1,21 @@
+(dp1
+S'output'
+p2
+S"<type 'exceptions.ValueError'> invalid literal for int() with base 10: '|1|1|'"
+p3
+sS'layer'
+p4
+S'/home/marco/projects/contabilidad/web2py/applications/sueldos/controllers/vistas.py'
+p5
+sS'code'
+p6
+S"# -*- coding: utf-8 -*-\n\ndef personal():\n    form = SQLFORM.grid(db.empleados, ui='jquery-ui', user_signature=False)\n    return dict(form=form)\n\ndef escalas():\n\n    nueva=crud.create(db.categorias, next=URL('vistas','escalas', vars=dict(gremio=request.vars.gremio, sindicato=request.vars.sindicato)))\n\n    if nueva.process().accepted:\n        session.flash='La categoria ha sido agregada'\n    elif nueva.errors:\n        response.flash='El formulario tiene errores'\n        \n    return dict(lista=db(db.categorias.gremio==request.vars.gremio).select(), nueva=nueva, prueba=request.vars.gremio)\n\ndef importes():\n    lista=db(db.valores.gremio==request.vars.gremio).select()\n\n    nuevo=SQLFORM(db.valores)\n\n    if nuevo.process().accepted:\n        session.flash='El importe ha sido agregado'\n        redirect(URL('vistas','importes?gremio='+ str(request.vars.gremio)+'&sindicato='+ str(request.vars.sindicato)))\n    elif nuevo.errors:\n        response.flash='El formulario tiene errores'\n    return dict(listado=lista, nuevo=nuevo)\n\nresponse._vars=response._caller(escalas)\n"
+p7
+sS'snapshot'
+p8
+(dp9
+sS'traceback'
+p10
+S'Traceback (most recent call last):\n  File "/home/marco/projects/contabilidad/web2py/gluon/restricted.py", line 212, in restricted\n    exec ccode in environment\n  File "/home/marco/projects/contabilidad/web2py/applications/sueldos/controllers/vistas.py", line 30, in <module>\n  File "/home/marco/projects/contabilidad/web2py/gluon/globals.py", line 193, in <lambda>\n    self._caller = lambda f: f()\n  File "/home/marco/projects/contabilidad/web2py/applications/sueldos/controllers/vistas.py", line 16, in escalas\n    return dict(lista=db(db.categorias.gremio==request.vars.gremio).select(), nueva=nueva, prueba=request.vars.gremio)\n  File "/home/marco/projects/contabilidad/web2py/gluon/dal.py", line 9092, in select\n    return adapter.select(self.query,fields,attributes)\n  File "/home/marco/projects/contabilidad/web2py/gluon/dal.py", line 2178, in select\n    return super(SQLiteAdapter, self).select(query, fields, attributes)\n  File "/home/marco/projects/contabilidad/web2py/gluon/dal.py", line 1624, in select\n    sql = self._select(query, fields, attributes)\n  File "/home/marco/projects/contabilidad/web2py/gluon/dal.py", line 1534, in _select\n    sql_w = \' WHERE \' + self.expand(query) if query else \'\'\n  File "/home/marco/projects/contabilidad/web2py/gluon/dal.py", line 1313, in expand\n    return op(first, second)\n  File "/home/marco/projects/contabilidad/web2py/gluon/dal.py", line 1239, in EQ\n    self.expand(second, first.type))\n  File "/home/marco/projects/contabilidad/web2py/gluon/dal.py", line 1323, in expand\n    return str(self.represent(expression,field_type))\n  File "/home/marco/projects/contabilidad/web2py/gluon/dal.py", line 1761, in represent\n    return str(int(obj))\nValueError: invalid literal for int() with base 10: \'|1|1|\'\n'
+p11
+s.

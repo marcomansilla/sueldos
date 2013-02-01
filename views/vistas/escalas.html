@@ -1,0 +1,35 @@
+{{extend 'layout.html'}}
+
+<h1>Categorias vigentes para {{=request.vars.sindicato.capitalize()}}</h1>
+
+<a href="#nuevo" role="button" class="btn btn-large btn-primary" data-toggle="modal"><h3><i class="icon-plus icon-white"></i> Agregar categoria</h3></a>
+{{if len(lista):}}
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>Categoria</th>
+      <th>Basico</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{for elemento in lista:}}
+        <tr>
+	  <td>{{=elemento.nombre}}</td>
+	  <td>{{=elemento.basico}}</td>
+	</tr>
+    {{pass}}
+  </tbody>
+</table>
+{{else:}}
+    <h1>Aun no hay escalas para este sindicato</h1>
+{{pass}}
+
+<div id="nuevo" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="nuevoLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="nuevoLabel">Nueva categoria</h3>
+  </div>
+  <div class="modal-body">
+    {{=nueva}}
+  </div>
+</div>

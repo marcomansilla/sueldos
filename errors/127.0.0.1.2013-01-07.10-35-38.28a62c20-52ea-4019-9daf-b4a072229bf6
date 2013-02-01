@@ -1,0 +1,21 @@
+(dp1
+S'output'
+p2
+S'<class \'gluon.contrib.pymysql.err.InternalError\'> (1005, u"Can\'t create table \'sueldos.empleadores\' (errno: 150)")'
+p3
+sS'layer'
+p4
+S'/home/marco/projects/contabilidad/web2py/applications/sueldos/models/db_empleadores.py'
+p5
+sS'code'
+p6
+S"#-*- coding: utf-8 -*-\n#Tablas relacionadas con los empleadores\n\ndb.define_table('actividades',\n    Field('codigo'),\n    Field('nombre'),\n    Field('detalle','text'),\n    format = '%(nombre)s'\n    )\n\ndb.define_table('empleadores',\n    Field('nombre', 'string', label='Nombre o raz\xc3\xb3n social'),\n    Field('cuit',label='C.U.I.T',requires=[IS_NOT_EMPTY(),IS_CUIS()]),\n    Field('domicilio', label='Domicilio legal'),\n    Field('provincia', requires=IS_IN_SET(PROVINCIA)),\n    Field('localidad'),\n    Field('cp', label='Codigo postal'),\n    Field('cactividad','list:string', label='Codigo de actividad'),\n    Field('nactividad', 'reference db.actividades',label='Nombre de actividad'),\n    Field('telefono'),\n    Field('email')\n    )\n\n\n"
+p7
+sS'snapshot'
+p8
+(dp9
+sS'traceback'
+p10
+S'Traceback (most recent call last):\n  File "/home/marco/projects/contabilidad/web2py/gluon/restricted.py", line 212, in restricted\n    exec ccode in environment\n  File "/home/marco/projects/contabilidad/web2py/applications/sueldos/models/db_empleadores.py", line 21, in <module>\n    Field(\'email\')\n  File "/home/marco/projects/contabilidad/web2py/gluon/dal.py", line 7173, in define_table\n    table = self.lazy_define_table(tablename,*fields,**args)\n  File "/home/marco/projects/contabilidad/web2py/gluon/dal.py", line 7206, in lazy_define_table\n    polymodel=polymodel)\n  File "/home/marco/projects/contabilidad/web2py/gluon/dal.py", line 935, in create_table\n    self.create_sequence_and_triggers(query,table)\n  File "/home/marco/projects/contabilidad/web2py/gluon/dal.py", line 1694, in create_sequence_and_triggers\n    self.execute(query)\n  File "/home/marco/projects/contabilidad/web2py/gluon/dal.py", line 1709, in execute\n    return self.log_execute(*a, **b)\n  File "/home/marco/projects/contabilidad/web2py/gluon/dal.py", line 1703, in log_execute\n    ret = self.cursor.execute(*a, **b)\n  File "/home/marco/projects/contabilidad/web2py/gluon/contrib/pymysql/cursors.py", line 117, in execute\n    self.errorhandler(self, exc, value)\n  File "/home/marco/projects/contabilidad/web2py/gluon/contrib/pymysql/connections.py", line 202, in defaulterrorhandler\n    raise errorclass, errorvalue\nInternalError: (1005, u"Can\'t create table \'sueldos.empleadores\' (errno: 150)")\n'
+p11
+s.

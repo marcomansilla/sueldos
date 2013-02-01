@@ -1,0 +1,19 @@
+{{extend 'layout.html'}}
+<table class='table table-condensed'>
+  <thead>
+    <tr>
+      <th>Rubro</th>
+      <th>Gremio</th>
+      <th>Sitio web</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{for elemento in lista:}}
+    <tr>
+      <td>{{=elemento.rubro}}</td>
+      <td>{{=elemento.sindicato}}</td>
+      <td>{{=elemento.web}}</td>
+    </tr>
+    {{pass}}
+  </tbody>
+</table>

@@ -1,0 +1,157 @@
+{{left_sidebar_enabled,right_sidebar_enabled=False,False}}
+{{extend 'layout.html'}}
+
+<div class="container">
+{{=A(H4(I(_class='icon-plus-sign icon-white'),' Nuevo cliente'), _href=URL('empresas','nuevoempleador', vars=dict()), _class="btn btn-large btn-primary")}}
+<a href="#nuevocliente" role="button" class="btn btn-large btn-primary" data-toggle="modal"><h4><i class="icon-plus-sign icon-white"></i>Agregar nuevo cliente</h4></a>
+<a href="#anotador" role="button" class="btn btn-large btn-primary" data-toggle="modal"><h4><i class="icon-pencil icon-white"></i>Nota</h4></a>
+</div>
+<br />
+<div class="container">
+  <div class="span10">
+    <ul class="icons">
+      <li><i class="icon-ok"></i> <strong>Nuevo cliente</strong></li>
+      Agrega un nuevo cliente
+      <li><i class="icon-ok"></i> <strong>Notas</strong></li>
+      Notas recordatorias
+    </ul>
+  </div>
+</div>
+
+
+
+<!-- Tabla de clientes -->
+<div>
+  <table class="table table-bordered table-hover">
+    <thead>
+      <tr>
+	<th style="text-align:center">Cliente</th>
+	<th style="text-align:center">Informacion</th>
+	<th style="text-align:center">Cuit</th>
+	<th style="text-align:center">Telefono</th>
+	<th style="text-align:center">Convenios</th>
+	<th style="text-align:center">Nomina</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{for elemento in lista:}}
+      <tr>
+	<td>{{=elemento.nombre}}</td>
+        <td style="text-align:center"><a href="#{{=elemento.id}}ver" role="button" class="btn btn-primary" data-toggle="modal"><i class="icon-eye-open icon-white"></i> Ver</a></td>
+	<td>{{=elemento.cuit}}</td>
+	<td>{{=elemento.telefono}}</td>
+	<td style="text-align:center"><a href="#{{=elemento.id}}convenios" role="button" class="btn btn-primary" data-toggle="modal"><i class="icon-eye-open icon-white"></i> Ver</a></td>
+	<td style="text-align:center">{{=A(I(_class='icon-eye-open icon-white'),' Ver', _href=URL('gestion','nomina', vars=dict(id=elemento.id, empleador=elemento.nombre)), _class="btn btn-primary")}}</td>
+      </tr>      
+      {{pass}}
+    </tbody>
+  </table>
+</div>
+
+
+<!-- Formulario anotador para recordatorios-->
+<div id="anotador" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="anotadorLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="anotadorLabel">Nueva anotacion</h3>
+  </div>
+  <div class="modal-body">
+    {{=nota}}
+  </div>
+</div>
+
+<!-- Modalbox con informacion de cada empleador -->
+{{for elemento in lista:}}
+<div id="{{=elemento.id}}ver" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="anotadorLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="{{=elemento.id}}verLabel">Datos del empleador</h3>
+  </div>
+  <div class="modal-body">
+    {{=crud.read(db.empleadores, elemento.id)}}
+    <a href="#{{=elemento.id}}editar" role="button" class="btn btn-primary" data-toggle="modal"><i class="icon-pencil icon-white"></i> Editar</a>
+  </div>
+</div>
+{{pass}}
+
+<!--Modalbox para Editar clientes-->
+{{for elemento in lista:}}
+<div id="{{=elemento.id}}editar" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="anotadorLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="{{=elemento.id}}editarLabel">Editar empleador</h3>
+  </div>
+  <div class="modal-body">
+    {{=SQLFORM(db.empleadores, elemento.id)}}
+  </div>
+</div>
+{{pass}}
+
+<!--Crear nuevo Cliente-->
+<div id="nuevocliente" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="anotadorLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="nuevoclienteLabel">Nuevo empleador</h3>
+  </div>
+  <div class="modal-body">
+    {{=crud.create(db.empleadores)}}
+  </div>
+</div>
+
+<!-- Modalbox con los convenios de cada empleador -->
+{{for elemento in lista:}}
+<div id="{{=elemento.id}}convenios" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="anotadorLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="{{=elemento.id}}conveniosLabel">convenios del empleador</h3>
+  </div>
+  <div class="modal-body">
+    <table class="table table-bordered table-hover">
+      <thead>
+	<tr>
+	  <th>Rubro</th>
+	  <th>Sindicato</th>
+	</tr>
+      </thead>
+      <tbody>
+    {{items=(db((db.convenios.empleador==elemento.id)&(db.convenios.convenio==db.gremios.id)).select())}}
+    {{for item in items:}}
+    <tr>
+      <td>{{=item.gremios.rubro}}</td>
+      <td>{{=item.gremios.sindicato}}</td>
+    {{pass}}
+    </tr>
+      </tbody>
+    </table>
+    <a href="#{{=elemento.id}}nconvenio" role="button" class="btn btn-primary" data-toggle="modal"><i class="icon-plus-sign icon-white"></i> Agregar</a>
+    {{=A(I(_class='icon-eye-open icon-white'),' Ver', _href=URL('gestion','nomina', vars=dict(id=elemento.id, empleador=elemento.nombre)), _class="btn btn-primary")}}
+  </div>
+</div>
+{{pass}}
+
+<!--Modalbox para agregar convenios-->
+{{for elemento in lista:}}
+<div id="{{=elemento.id}}nconvenio" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="anotadorLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="{{=elemento.id}}nconvenioLabel">Nuevo convenio</h3>
+  </div>
+  <div class="modal-body">
+    
+  </div>
+</div>
+{{pass}}
+
+<!-- Side bar-->
+{{block right_sidebar}}
+<div class="encerrado">
+<h4>Anotaciones</h4>
+    {{for elemento in anotaciones:}}
+    <div>
+        <italic>{{=elemento.fecha}}</italic><br>
+        {{=elemento.nota}}
+        <hr>
+    </div>
+    {{pass}}
+</div>
+

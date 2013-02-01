@@ -1,0 +1,19 @@
+{{extend 'layout.html'}}
+
+<h2>Nomina de empleados de {{=request.vars.empleador}}</h2>
+
+<a href="#nuevoempleado" role="button" class="btn btn-large btn-primary" data-toggle="modal"><h4><i class="icon-plus-sign icon-white"></i>Agregar nuevo empleado</h4></a>
+
+{{=personal}}
+
+
+<!--Crear nuevo Cliente-->
+<div id="nuevoempleado" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="anotadorLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="nuevoempleadoLabel">Nuevo empleador</h3>
+  </div>
+  <div class="modal-body">
+    {{=crud.create(db.empleados)}}
+  </div>
+</div>

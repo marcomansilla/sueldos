@@ -1,0 +1,88 @@
+{{extend 'layout.html'}}
+<h1>Importes vigentes para los recibos de {{=request.vars.sindicato.capitalize()}}</h1>
+<a data-target="#nuevo" role="button" class="btn btn-large btn-primary" data-toggle="modal"><h3><i class="icon-plus icon-white"></i> Nuevo importe</h3></a>
+
+<ul class="nav nav-tabs" id="myTab">
+  <li class="active"><a href="#fijo">Valores fijos</a></li>
+  <li><a href="#porcentual">Valores porcentuales</a></li>
+  <li><a href="#messages">Messages</a></li>
+</ul>
+
+<div class="tab-content">
+  <div class="tab-pane active" id="fijo">
+    <h3>Importes fijos</h3>
+    <table class="table table-hover">
+      <thead>
+	<tr>
+	  <th>Nombre</th>
+	  <th>Importe</th>
+	</tr>
+      </thead>
+      <tbody>
+	{{for elemento in listado:}}
+	{{if elemento.timporte=="Monto fijo":}}
+        <tr>
+	  <td>{{=elemento.nombre}}</td>
+	  <td>{{=elemento.valor}}</td>
+	  <td><a href="#{{=elemento.id}}" role="button" class="btn btn-danger" data-toggle="modal"><i class="icon-edit icon-white"></i> Editar</a></td>
+	</tr>
+	{{pass}}
+	{{pass}}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="tab-pane" id="porcentual">
+    <h3>Importes porcentuales</h3>
+    <table class="table table-hover">
+      <thead>
+	<tr>
+	  <th>Nombre</th>
+	  <th>Porcentaje</th>
+	</tr>
+      </thead>
+      <tbody>
+	{{for elemento in listado:}}
+	{{if elemento.timporte=="Porcentual":}}
+        <tr>
+	  <td>{{=elemento.nombre}}</td>
+	  <td>{{=elemento.valor}}%</td>
+	</tr>
+	{{pass}}
+	{{pass}}
+      </tbody>
+    </table>
+  </div>
+  
+</div>
+
+<div id="nuevo" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="nuevoLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="nuevoLabel">Nuevo Importe</h3>
+  </div>
+  <div class="modal-body">
+    {{=nuevo}}
+  </div>
+</div>
+
+{{for elemento in listado:}}
+<div id="{{=elemento.id}}" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="{{=elemento.id}}Label" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="{{=elemento.id}}Label">Editar Importe</h3>
+  </div>
+  <div class="modal-body">
+    {{=SQLFORM(db.valores, (elemento.id))}}
+  </div>
+</div>
+{{pass}}
+
+
+<script type="text/javascript">
+    $('#myTab a').click(function (e) {
+        e.preventDefault();
+    $(this).tab('show');
+    })
+    
+</script>

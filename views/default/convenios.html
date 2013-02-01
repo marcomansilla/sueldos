@@ -1,0 +1,51 @@
+{{extend 'layout.html'}}
+
+<a href="#nuevo" role="button" class="btn btn-large btn-primary" data-toggle="modal"><h3><i class="icon-plus icon-white"></i> Nuevo convenio</h3></a>
+<h1>Hay {{=len(listado)}} convenios vigentes</h1>
+<table class="table table-bordered table-hover">
+<thead>
+<tr>
+<th></th>
+<th>Rubro</th>
+<th>Sindicato</th>
+<th>Sitio web</th>
+<th>Importes de recibo</th>
+<th>Escalas salariales</th>
+</tr>
+</thead>
+<tbody>
+{{for elemento in listado:}}
+<tr>
+<td><a href="#{{=elemento.id}}" role="button" class="btn btn-danger" data-toggle="modal"><i class="icon-edit icon-white"></i> Editar</a></td>
+<td>{{=elemento.rubro}}</td>
+<td>{{=elemento.sindicato}}</td>
+<td>{{=elemento.web}}</td>
+<td>{{=A(I(_class='icon-money'),' Ver valores', _href=URL('vistas','importes', vars=dict(id=elemento.id, sindicato=elemento.rubro)), _class="btn btn-primary")}}</td>
+<td>{{=A(I(_class='icon-bar-chart'),' Ver escalas', _href=URL('vistas','escalas', vars=dict(id=elemento.id, sindicato=elemento.rubro)), _class="btn btn-primary")}}</td>
+</tr>
+{{pass}}
+</tbody>
+</table>
+
+<div id="nuevo" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="nuevoLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="nuevoLabel">Nuevo convenio</h3>
+  </div>
+  <div class="modal-body">
+    {{=nuevo}}
+  </div>
+</div>
+
+
+{{for elemento in listado:}}
+<div id="{{=elemento.id}}" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="{{=elemento.id}}Label" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="{{=elemento.id}}Label">Editar convenio</h3>
+  </div>
+  <div class="modal-body">
+    {{=crud.update(db.gremios, elemento.id)}}
+  </div>
+</div>
+{{pass}}

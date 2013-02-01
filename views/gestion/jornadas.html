@@ -1,0 +1,15 @@
+{{extend 'layout.html'}}
+
+<a href="#nuevo" role="button" class="btn btn-large btn-primary" data-toggle="modal"><h3><i class="icon-plus icon-white"></i> Agregar jornada</h3></a>
+
+{{=lista}}
+
+<div id="nuevo" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="nuevoLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="nuevoLabel">Agregar jornada laboral</h3>
+  </div>
+  <div class="modal-body">
+    {{=nuevo}}
+  </div>
+</div>

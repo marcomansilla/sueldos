@@ -1,0 +1,21 @@
+(dp1
+S'output'
+p2
+S'<class \'gluon.contrib.pymysql.err.ProgrammingError\'> (1146, u"Table \'sueldos.empleados\' doesn\'t exist")'
+p3
+sS'layer'
+p4
+S'/home/marco/projects/contabilidad/web2py/applications/sueldos/models/db_empleados.py'
+p5
+sS'code'
+p6
+S"#-*- coding: utf-8 -*-\n\ndb.define_table('empleados',\n    Field('legajo',label='Nro. de legajo', readable=True),\n    Field('apaterno',label='Apellido paterno'),\n    Field('amaterno',label='Apellido materno'),\n    Field('nombre',label='Nombre/s'),\n    Field('cuil',label='C.U.I.L', requires=[IS_NOT_EMPTY(), IS_CUIS()]),\n    Field('nacionalidad'),\n    Field('ecivil',label='Estado civil', requires=IS_IN_SET(ESTADO_CIVIL)),\n    Field('fnac',label='Fecha de nacimiento'),\n    Field('domicilio'),\n    Field('tdoc',label='Tipo de documento', requires=IS_IN_SET(TIPO_DOCUMENTO)),\n    Field('ndoc',label='Numero de documento')\n    )\n\ndb.empleados.id.readable=True\ndb.empleados.legajo.default=default=db(db.empleados.id>0).count()+1\ndb.empleados.legajo.unique=True\ndb.empleados.legajo.writable=False\n"
+p7
+sS'snapshot'
+p8
+(dp9
+sS'traceback'
+p10
+S'Traceback (most recent call last):\n  File "/home/marco/projects/contabilidad/web2py/gluon/restricted.py", line 212, in restricted\n    exec ccode in environment\n  File "/home/marco/projects/contabilidad/web2py/applications/sueldos/models/db_empleados.py", line 18, in <module>\n    db.empleados.legajo.default=default=db(db.empleados.id>0).count()+1\n  File "/home/marco/projects/contabilidad/web2py/gluon/dal.py", line 8870, in count\n    return db._adapter.count(self.query,distinct)\n  File "/home/marco/projects/contabilidad/web2py/gluon/dal.py", line 1651, in count\n    self.execute(self._count(query, distinct))\n  File "/home/marco/projects/contabilidad/web2py/gluon/dal.py", line 1709, in execute\n    return self.log_execute(*a, **b)\n  File "/home/marco/projects/contabilidad/web2py/gluon/dal.py", line 1703, in log_execute\n    ret = self.cursor.execute(*a, **b)\n  File "/home/marco/projects/contabilidad/web2py/gluon/contrib/pymysql/cursors.py", line 117, in execute\n    self.errorhandler(self, exc, value)\n  File "/home/marco/projects/contabilidad/web2py/gluon/contrib/pymysql/connections.py", line 202, in defaulterrorhandler\n    raise errorclass, errorvalue\nProgrammingError: (1146, u"Table \'sueldos.empleados\' doesn\'t exist")\n'
+p11
+s.

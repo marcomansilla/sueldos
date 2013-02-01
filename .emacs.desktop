@@ -2,7 +2,7 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Thu Jan 31 16:21:39 2013
+;; Created Thu Jan 31 21:54:16 2013
 ;; Desktop file format version 206
 ;; Emacs version 24.2.1
 
@@ -16,6 +16,17 @@
 (setq file-name-history nil)
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/marco/projects/contabilidad/web2py/applications/sueldos/README.rst"
+  "README.rst"
+  'rst-mode
+  '(abbrev-mode auto-complete-mode rainbow-delimiters-mode linum-mode autopair-mode)
+  1729
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
+
 (desktop-create-buffer 206
   "/home/marco/projects/contabilidad/web2py/applications/sueldos/.git/config"
   "config"
