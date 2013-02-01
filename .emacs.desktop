@@ -2,7 +2,7 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Fri Feb  1 00:09:59 2013
+;; Created Fri Feb  1 01:34:06 2013
 ;; Desktop file format version 206
 ;; Emacs version 24.2.1
 
@@ -12,29 +12,51 @@
 (setq tags-table-list nil)
 (setq search-ring nil)
 (setq regexp-search-ring nil)
-(setq register-alist nil)
-(setq file-name-history nil)
+(setq register-alist (list (list 213465879 "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook (list 'lambda '() (list 'set-marker mk 1 (get-buffer "default.py")))) mk))))
+(setq file-name-history '("~/projects/contabilidad/web2py/applications/sueldos/" "~/projects/contabilidad/web2py/applications/sueldos/views/empresas/convenios.html" "~/projects/contabilidad/web2py/applications/sueldos/controllers/empresas.py" "~/projects/contabilidad/web2py/applications/sueldos/views/default/clientes.html"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/home/marco/projects/contabilidad/web2py/applications/sueldos/README.rst"
-  "README.rst"
-  'rst-mode
+  "/home/marco/projects/contabilidad/web2py/applications/sueldos/views/default/clientes.html"
+  "clientes.html"
+  'html-mode
   '(abbrev-mode auto-complete-mode rainbow-delimiters-mode linum-mode autopair-mode)
-  1524
-  '(nil nil)
+  4892
+  '(4896 nil)
   nil
   nil
   '((buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
-  "/home/marco/projects/contabilidad/web2py/applications/sueldos/.git/config"
-  "config"
-  'conf-unix-mode
-  '(abbrev-mode auto-complete-mode rainbow-delimiters-mode linum-mode autopair-mode)
-  144
+  "/home/marco/projects/contabilidad/web2py/applications/sueldos/controllers/default.py"
+  "default.py"
+  'python-mode
+  '(abbrev-mode outline-minor-mode auto-complete-mode rainbow-delimiters-mode flymake-mode linum-mode autopair-mode)
+  119
   '(nil nil)
   nil
   nil
-  '((buffer-file-coding-system . undecided-unix)))
+  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/marco/projects/contabilidad/web2py/applications/sueldos/controllers/empresas.py"
+  "empresas.py"
+  'python-mode
+  '(abbrev-mode outline-minor-mode auto-complete-mode rainbow-delimiters-mode flymake-mode linum-mode autopair-mode)
+  604
+  '(nil nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/marco/projects/contabilidad/web2py/applications/sueldos/views/empresas/convenios.html"
+  "convenios.html"
+  'html-mode
+  '(abbrev-mode auto-complete-mode rainbow-delimiters-mode linum-mode autopair-mode)
+  12
+  '(12 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix)))
 
