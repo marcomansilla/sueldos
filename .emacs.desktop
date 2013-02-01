@@ -2,7 +2,7 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Thu Jan 31 21:54:16 2013
+;; Created Fri Feb  1 00:09:59 2013
 ;; Desktop file format version 206
 ;; Emacs version 24.2.1
 
@@ -21,7 +21,7 @@
   "README.rst"
   'rst-mode
   '(abbrev-mode auto-complete-mode rainbow-delimiters-mode linum-mode autopair-mode)
-  1729
+  1524
   '(nil nil)
   nil
   nil

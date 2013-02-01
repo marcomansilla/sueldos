@@ -79,6 +79,6 @@ Este software esta liberado bajo licencia GPL V3 o posteriores, salvo los plugin
 - Lazy table
 - Twitter bootstrap
 
- y algun otro que use que ire agregando. 
+y algun otro que use que ire agregando. 
 
 Web2py no se distribuye como parte de este software, aunque dada su caracteristuca de retrocompatibilidad, cualquier version posterior a la 2.4 deberia funcionar.
