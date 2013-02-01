@@ -1,7 +1,6 @@
 Sistema de gestion de sueldos y jornales
 ========================================
 
-
 Este es un sistema de gestion de sueldos y jornales, el mismo cuenta con:
 
 * Gestion de sueldos
@@ -31,30 +30,39 @@ Gestion de empleadores
 ----------------------
 
 * Datos del empleador
+* Adhesion a gremios
+* Categorias para empleados
 * Registro de empleados
 * Liquidacion de aportes
 
 IMPLEMENTADO
 ------------
 
-* Las constantes estan declaradas en 0.py
+* Las constantes estan declaradas en 00.py
 * Las clases personalizadas (tipos y validadores), se encuentran en 01.py
 * Declaradas constantes basicas:
-  - Tipo de documento
-  - Estado Civil
-  - Provincias
-  - Sexo
+  * Tipo de documento
+  * Estado Civil
+  * Provincias
+  * Sexo
 * Clase validadora de CUIL/CUIT implementada
+* ABM para empleadores
+* ABM Empleados (mejorar el estilo y agregar controles)
+* Categorias
+* Convenios
+* Escalas salariales
+
 
 Todo
 ----
 
 * ABM para administrar el sistema
-* ABM para empleadores
 * Gestion de empleados
-* Categorias
-* Convenios
-* Escalas salariales
+* Mejorar el estilo
+* agregar botones en formularios y tablas
+* Confeccion de recibo de sueldo
+* Libro de sueldos
+
 
 
 INSTALACION
