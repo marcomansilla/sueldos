@@ -31,6 +31,7 @@ def jornadas():
     return dict(lista=lista, nuevo=nuevo)
 
 def nomina():
+    db.empleados.convenio.requires=IS_EMPTY_OR(IS_IN_DB(db((db.convenios.empleador==request.vars.id)&(db.gremios.id==db.convenios.convenio)), 'gremios.rubro', zero='-----'))
     personal=db(db.empleados.empleador==request.vars.id).select()
     nuevo=SQLFORM(db.empleados)
 

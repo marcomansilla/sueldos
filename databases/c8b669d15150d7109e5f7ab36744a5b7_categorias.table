@@ -1,5 +1,5 @@
 (dp1
-S'id'
+S'nombre'
 p2
 (dp3
 S'length'
@@ -10,38 +10,44 @@ p5
 I00
 sS'sortable'
 p6
-I1
+I3
 sS'sql'
 p7
-S'INTEGER PRIMARY KEY AUTOINCREMENT'
+S'CHAR(512)'
 p8
 sS'notnull'
 p9
 I00
 sS'type'
 p10
-S'id'
+S'string'
 p11
-ssS'nombre'
+ssS'sindicato'
 p12
 (dp13
-g4
-I512
-sg5
-I00
-sg6
-I3
-sg7
-S'CHAR(512)'
+S'sortable'
 p14
-sg9
-I00
-sg10
-S'string'
+I2
+sS'sql'
 p15
-ssS'gremio'
+S'INTEGER REFERENCES sindicatos (id) ON DELETE CASCADE'
 p16
-(dp17
+sS'length'
+p17
+I512
+sS'notnull'
+p18
+I00
+sS'unique'
+p19
+I00
+sS'type'
+p20
+S'reference sindicatos'
+p21
+ssS'gremio'
+p22
+(dp23
 g4
 I512
 sg5
@@ -50,34 +56,28 @@ sg6
 I2
 sg7
 S'INTEGER REFERENCES gremios (id) ON DELETE CASCADE'
-p18
+p24
 sg9
 I00
 sg10
 S'reference gremios'
-p19
-ssS'sindicato'
-p20
-(dp21
-S'sortable'
-p22
-I2
-sS'sql'
-p23
-S'INTEGER REFERENCES sindicatos (id) ON DELETE CASCADE'
-p24
-sS'length'
 p25
-I512
-sS'notnull'
+ssS'id'
 p26
+(dp27
+g4
+I512
+sg5
 I00
-sS'unique'
-p27
-I00
-sS'type'
+sg6
+I1
+sg7
+S'INTEGER PRIMARY KEY AUTOINCREMENT'
 p28
-S'reference sindicatos'
+sg9
+I00
+sg10
+S'id'
 p29
 ssS'basico'
 p30
@@ -94,5 +94,5 @@ p32
 sg9
 I00
 sg10
-g15
+g11
 ss.

@@ -2,7 +2,7 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Fri Feb  1 09:04:43 2013
+;; Created Sat Feb  2 03:59:17 2013
 ;; Desktop file format version 206
 ;; Emacs version 24.2.1
 
@@ -10,63 +10,52 @@
 (setq desktop-missing-file-warning nil)
 (setq tags-file-name nil)
 (setq tags-table-list nil)
-(setq search-ring nil)
+(setq search-ring '("(convenios"))
 (setq regexp-search-ring nil)
-(setq register-alist (list (list 213465879 "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook (list 'lambda '() (list 'set-marker mk 1 (get-buffer "default.py")))) mk))))
-(setq file-name-history '("~/projects/contabilidad/web2py/applications/sueldos/static/css/bootstrap.min.css" "~/projects/contabilidad/web2py/applications/sueldos/static/css/t" "~/projects/contabilidad/web2py/applications/sueldos/" "~/projects/contabilidad/web2py/applications/sueldos/views/empresas/convenios.html" "~/projects/contabilidad/web2py/applications/sueldos/controllers/empresas.py" "~/projects/contabilidad/web2py/applications/sueldos/views/default/clientes.html"))
+(setq register-alist (list (list 213465879 "Unprintable entity" (let ((mk (make-marker))) (add-hook 'desktop-delay-hook (list 'lambda '() (list 'set-marker mk 1 (get-buffer "gestion.py")))) mk))))
+(setq file-name-history '("~/projects/contabilidad/web2py/applications/sueldos/controllers/gestion.py" "~/projects/contabilidad/web2py/applications/sueldos/models/db_complementos.py" "~/projects/contabilidad/web2py/applications/sueldos/models/db_sueldos.py" "~/projects/contabilidad/web2py/applications/sueldos/models/db_empleadores.py" "~/projects/contabilidad/web2py/applications/sueldos/static/css/bootstrap.min.css" "~/projects/contabilidad/web2py/applications/sueldos/static/css/t" "~/projects/contabilidad/web2py/applications/sueldos/" "~/projects/contabilidad/web2py/applications/sueldos/views/empresas/convenios.html" "~/projects/contabilidad/web2py/applications/sueldos/controllers/empresas.py" "~/projects/contabilidad/web2py/applications/sueldos/views/default/clientes.html"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
 (desktop-create-buffer 206
-  "/home/marco/projects/contabilidad/web2py/applications/sueldos/README.rst"
-  "README.rst"
-  'rst-mode
-  '(abbrev-mode auto-complete-mode rainbow-delimiters-mode linum-mode autopair-mode)
-  1314
-  '(nil nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/home/marco/projects/contabilidad/web2py/applications/sueldos/controllers/empresas.py"
-  "empresas.py"
+  "/home/marco/projects/contabilidad/web2py/applications/sueldos/controllers/gestion.py"
+  "gestion.py"
   'python-mode
   '(abbrev-mode outline-minor-mode auto-complete-mode rainbow-delimiters-mode flymake-mode linum-mode autopair-mode)
-  604
-  '(nil nil)
+  930
+  '(878 nil)
   nil
   nil
   '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
 
 (desktop-create-buffer 206
-  "/home/marco/projects/contabilidad/web2py/applications/sueldos/views/empresas/convenios.html"
-  "convenios.html"
-  'html-mode
-  '(abbrev-mode auto-complete-mode rainbow-delimiters-mode linum-mode autopair-mode)
-  12
-  '(12 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/home/marco/projects/contabilidad/web2py/applications/sueldos/views/default/clientes.html"
-  "clientes.html"
-  'html-mode
-  '(abbrev-mode auto-complete-mode rainbow-delimiters-mode linum-mode autopair-mode)
-  4892
-  '(4896 nil)
-  nil
-  nil
-  '((buffer-file-coding-system . utf-8-unix)))
-
-(desktop-create-buffer 206
-  "/home/marco/projects/contabilidad/web2py/applications/sueldos/controllers/default.py"
-  "default.py"
+  "/home/marco/projects/contabilidad/web2py/applications/sueldos/models/db_complementos.py"
+  "db_complementos.py"
   'python-mode
   '(abbrev-mode outline-minor-mode auto-complete-mode rainbow-delimiters-mode flymake-mode linum-mode autopair-mode)
-  119
-  '(nil nil)
+  485
+  '(485 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/marco/projects/contabilidad/web2py/applications/sueldos/models/db_empleados.py"
+  "db_empleados.py"
+  'python-mode
+  '(abbrev-mode outline-minor-mode auto-complete-mode rainbow-delimiters-mode flymake-mode linum-mode autopair-mode)
+  556
+  '(874 nil)
+  nil
+  nil
+  '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))
+
+(desktop-create-buffer 206
+  "/home/marco/projects/contabilidad/web2py/applications/sueldos/models/db_sueldos.py"
+  "db_sueldos.py"
+  'python-mode
+  '(abbrev-mode outline-minor-mode auto-complete-mode rainbow-delimiters-mode flymake-mode linum-mode autopair-mode)
+  472
+  '(340 nil)
   nil
   nil
   '((tab-width . 4) (indent-tabs-mode) (buffer-file-coding-system . utf-8-unix)))

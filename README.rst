@@ -1,4 +1,4 @@
-Sistema de gestion de sueldos y jornales
+Sistema de liquidacion de sueldos y jornales
 ========================================
 
 Este es un sistema de gestion de sueldos y jornales, el mismo cuenta con:

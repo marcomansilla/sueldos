@@ -17,8 +17,8 @@ db.define_table('empleados',
     )
 
 db.empleados.id.readable=True
-db.empleados.legajo.default=default=db(db.empleados.id>0).count()+1
+db.empleados.legajo.default=db(db.empleados.id>0).count()+1
 db.empleados.legajo.unique=True
 db.empleados.legajo.writable=False
-#db.empleados.convenio.requires=IS_IN_SET([db(db.empleadores.id==request.vars.id).select(db.empleadores.convenios)])
+#db.empleados.convenio.requires=IS_IN_SET([db(db.convenios.empleador==request.vars.id).select()])
 #db.empleados.convenio.requires=IS_IN_DB(db, db.empleadores.convenios)
