@@ -41,7 +41,7 @@
 	<td>{{=elemento.cuit}}</td>
 	<td>{{=elemento.telefono}}</td>
 	<td style="text-align:center"><a href="#{{=elemento.id}}convenios" role="button" class="btn btn-primary" data-toggle="modal"><i class="icon-eye-open icon-white"></i> Ver</a></td>
-	<td style="text-align:center">{{=A(I(_class='icon-eye-open icon-white'),' Ver', _href=URL('gestion','nomina', vars=dict(id=elemento.id, empleador=elemento.nombre)), _class="btn btn-primary")}}</td>
+	<td style="text-align:center">{{=A(I(_class='icon-eye-open icon-white'),' Ver', _href=URL('gestion','nomina', vars=dict(eid=elemento.id, empleador=elemento.nombre)), _class="btn btn-primary")}}</td>
       </tr>      
       {{pass}}
     </tbody>

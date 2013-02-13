@@ -9,9 +9,4 @@ db.define_table('valores',
     Field('valor')
     )
 
-db.define_table('convenios',
-    Field('empleador',db.empleadores, default=request.vars.id),
-    Field('convenio', db.gremios)
-    )
-
 #db.valores.pago.widget=SQLFORM.widgets.radio.widget

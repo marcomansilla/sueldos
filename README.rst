@@ -51,18 +51,18 @@ IMPLEMENTADO
 * Categorias
 * Convenios
 * Escalas salariales
-
+* Gestion de empleados
 
 Todo
 ----
 
 * ABM para administrar el sistema
-* Gestion de empleados
+* Asignacion de gremios y Categorias a empleados segun empleadores
 * Mejorar el estilo
 * agregar botones en formularios y tablas
 * Confeccion de recibo de sueldo
 * Libro de sueldos
-
+* Implementar RBAC
 
 
 INSTALACION

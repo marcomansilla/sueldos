@@ -32,7 +32,7 @@ def jornadas():
 
 def nomina():
     db.empleados.convenio.requires=IS_EMPTY_OR(IS_IN_DB(db((db.convenios.empleador==request.vars.id)&(db.gremios.id==db.convenios.convenio)), 'gremios.rubro', zero='-----'))
-    personal=db(db.empleados.empleador==request.vars.id).select()
+    personal=db(db.empleados.empleador==request.vars.eid).select()
     nuevo=SQLFORM(db.empleados)
 
     if nuevo.process().accepted:
@@ -40,4 +40,8 @@ def nomina():
     elif nuevo.errors:
         response.flash='El formulario tiene errores'
 
-    return dict(personal=personal, nuevo=nuevo)
+    return dict(personal=personal, nuevo=nuevo, categoria=SQLTABLE(db(db.categorias.id > 0)(db.categorias.gremio == db.gremios.id).select(db.gremios.id, db.gremios.rubro, db.categorias.nombre)))
+
+def convenios():
+    
+    return CAT(*[OPTIONS(t.name) for t in db(db.convenios.convenio_id==db.gremios(request.vars.id)).select()])

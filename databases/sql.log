@@ -370,3 +370,5 @@ CREATE TABLE convenios(
     convenio INTEGER REFERENCES gremios (id) ON DELETE CASCADE
 );
 success!
+timestamp: 2013-02-02T09:26:38.342412
+ALTER TABLE empleados ADD categoria CHAR(512);

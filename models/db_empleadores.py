@@ -39,3 +39,4 @@ db.define_table('notas',
     Field('nota', 'text'),
     Field('fecha','date', default=request.now, writable=False),
     )
+

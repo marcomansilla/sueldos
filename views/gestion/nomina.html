@@ -7,13 +7,18 @@
 {{=personal}}
 
 
-<!--Crear nuevo Cliente-->
+<!--Crear nuevo Empleado-->
 <div id="nuevoempleado" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="anotadorLabel" aria-hidden="true">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="nuevoempleadoLabel">Nuevo empleador</h3>
+    <h3 id="nuevoempleadoLabel">Nuevo empleado</h3>
   </div>
   <div class="modal-body">
     {{=crud.create(db.empleados)}}
   </div>
 </div>
+
+<script type="text/javascript">
+var t = jQuery('#empleados_convenio');
+t.change(function(){jQuery.ajax({url:'{{=URL('convenios')}}',data:{'id':t.value()},success:function(data) jQuery('select[name=categoria]').html(data); })
+</script>
