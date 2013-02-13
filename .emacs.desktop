@@ -2,7 +2,7 @@
 ;; --------------------------------------------------------------------------
 ;; Desktop File for Emacs
 ;; --------------------------------------------------------------------------
-;; Created Tue Feb 12 23:33:50 2013
+;; Created Tue Feb 12 23:36:09 2013
 ;; Desktop file format version 206
 ;; Emacs version 24.2.1
 
@@ -16,6 +16,17 @@
 (setq file-name-history '("~/projects/contabilidad/web2py/applications/sueldos/views/gestion/nomina.html" "~/projects/contabilidad/web2py/applications/sueldos/controllers/gestion.py" "~/projects/contabilidad/web2py/applications/sueldos/models/db_complementos.py" "~/projects/contabilidad/web2py/applications/sueldos/models/db_sueldos.py" "~/projects/contabilidad/web2py/applications/sueldos/models/db_empleadores.py" "~/projects/contabilidad/web2py/applications/sueldos/static/css/bootstrap.min.css" "~/projects/contabilidad/web2py/applications/sueldos/static/css/t" "~/projects/contabilidad/web2py/applications/sueldos/" "~/projects/contabilidad/web2py/applications/sueldos/views/empresas/convenios.html" "~/projects/contabilidad/web2py/applications/sueldos/controllers/empresas.py" "~/projects/contabilidad/web2py/applications/sueldos/views/default/clientes.html"))
 
 ;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/home/marco/projects/contabilidad/web2py/applications/sueldos/.gitignore"
+  ".gitignore"
+  'fundamental-mode
+  '(abbrev-mode auto-complete-mode rainbow-delimiters-mode linum-mode autopair-mode)
+  66
+  '(nil nil)
+  nil
+  nil
+  '((buffer-file-coding-system . undecided-unix)))
+
 (desktop-create-buffer 206
   "/home/marco/projects/contabilidad/web2py/applications/sueldos/README.rst"
   "README.rst"
